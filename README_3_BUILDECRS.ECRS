@@ -1,0 +1,81 @@
+/**
+ * ==== Build & Re-Build Firmware with ECRS Customizations ====
+ * An ECRS specific build has been produced with UI modifications, menu changes
+ * modified defaults, etc. All changes that get made for ECRS firmware should
+ * take place within the /release/ecrs folder, and be called from the
+ * /release/ecrs/buildfirmware.sh script.
+ */
+1. To build the ECRS customized firmware, do the following:
+    astclair@asusrtn16:~# cd ~/AsusRT-N16/trunk/tomato/release/ecrs
+    astclair@asusrtn16:~/AsusRT-N16/trunk/tomato/release/ecrs# ./buildfirmware.sh
+
+	/** VERSIONING:
+	 *  The VERSION file holds the current ECRS Major version and the build number
+     *  of the firmware. The buildfirmware.sh has been updated to automatically
+     *  insert the correct MAJOR.BUILD number into the firmware.trx file.
+	 */
+
+
+
+/**
+ * ==== Customizing the Firmware ====
+ */
+1. MENUS
+    a. You can alter the menu layout of the device by editing release/ecrs/tomato.js,
+	however it is recommended that the menu options just be hidden via CSS in the event that
+	they could one day be useful on a site experiencing odd or complicated issues. If a menu
+	option is simply hidden instead of removed, a technician could then Insepect Element in
+	a browser and re-enable that option for troubleshooting purposes.
+
+    b. In lieu of editing the actual javascript object used to build the menu, just alter the
+	array in /release/ecrs/insertecrsstyle.sh. To remove menu items from the UI, simply add
+	the correspnding /file-name.asp that appears in the web-browser when you browse to that
+	page, recompile and the menu item will have been hidden with CSS.
+
+    c. In the event that a new menu item needs to be created, then the only option is to add
+    it to the release/ecrs/tomato.js file. There is currently a menu item titled "ECRS" in
+    the tomato.js file that was used to test this implementation. If adding a custom ECRS
+    feature, place that menu into the ECRS menu item section, and uncomment said section.
+
+
+2. DEFAULTS
+    a. The defaults for the image are in release/src-rt/router/nvram/defaults.c. There is also
+	a defaults.c.backup file in the same location to help revert back to stock defaults in
+	the event the defaults.c file gets corrupt with improper formatting or incorrect options.
+
+    b. To change stock default values you must know what the key for the value is. This can usually
+	be found by browsing to the page in Webmin that the option appears on, right-click and
+	inspect the element. The "name" property of the field should be relatively close to the
+	key within the defaults.c file. VIM (or other) the defaults.c file and find the actual key
+	value for that property.
+
+    c. Once you know the key, changing the default value is as simple as altering the current
+	value assigned to that key in ecrsconfig.txt. If changing a default value that is not
+	yet in ecrsconfig.txt then add it to the file following the format: key = value
+
+3. PAGE SECTIONS
+    a. Page Sections can be removed by adding their title to the hiddensections array within
+    the /release/ecrs/insertecrsstyle.sh file. For instance, the Basic > Identification page
+    has a Section with title "Router Identification". If you add that text to the aforementioned
+    array, then ./buildfirmware.sh, that section will be hidden.
+
+4. IDs
+    a. Individual elements can be removed by adding their id value to the hiddneIDs array within
+    the /release/ecrs/insertecrsstyle.sh file.
+
+5. Other
+    a. There are a few cases where an element doesn't have an ID, or is automatically generated
+    and cannot be targed by CSS. In lieu of manually going into the file and editing it, it is
+    more appropriate to do it via the /release/ecrs/insertecrsstyle.sh script so that the
+    modifications are more easily reproducable in future releases (incase a new version of
+    shibby is released into the repository).
+
+
+
+/**
+ * ==== The About Page ====
+ */
+1. Edit the /release/ecrs/ecrsabout.asp file to change the about.asp page that gets displayed in
+the webui. The ./buildfirmware.sh puts the ecrsabout.sh file in place for the about.asp file in
+/www. The about page MUST ALWAYS display a valid link to the router source code due to GNU GPLv3
+requirements.
