@@ -1,0 +1,11 @@
+crypto_verify/64/libsodium_la-verify_64_api.lo \
+  crypto_verify/64/libsodium_la-verify_64_api.o:  \
+ crypto_verify/64/verify_64_api.c include/sodium/crypto_verify_64.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stddef.h \
+  include/sodium/export.h
+
+include/sodium/crypto_verify_64.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stddef.h:
+
+include/sodium/export.h:

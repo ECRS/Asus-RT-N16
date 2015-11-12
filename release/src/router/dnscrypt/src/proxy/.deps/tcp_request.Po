@@ -1,0 +1,469 @@
+tcp_request.o tcp_request.o: tcp_request.c ../../config.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/types.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/features.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_config.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_arch_features.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/cdefs.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/types.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/wordsize.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stddef.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/kernel_types.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/typesizes.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/pthreadtypes.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sched.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/time.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/endian.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/endian.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/select.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/select.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigset.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/time.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/sysmacros.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/socket.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/uio.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uio.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/socket.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/limits.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/syslimits.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/limits.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/posix1_lim.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/local_lim.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/linux/limits.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_local_lim.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/posix2_lim.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/xopen_lim.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/stdio_lim.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sockaddr.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/asm/socket.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/asm/sockios.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/asm/ioctl.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/netinet/in.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/stdint.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/wchar.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/in.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/linux/version.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/byteswap.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/netinet/tcp.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/assert.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/signal.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/signum.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/siginfo.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigaction.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigcontext.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sgidefs.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigstack.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/ucontext.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/ucontext.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigthread.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/stdlib.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/waitflags.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/waitstatus.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/alloca.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/string.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/unistd.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/posix_opt.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/environments.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/confname.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/getopt.h \
+  ../libevent-modified/include/event2/buffer.h \
+  ../libevent-modified/include/event2/event-config.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stdarg.h \
+  ../libevent-modified/include/event2/util.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/time.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/netdb.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/rpc/netdb.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/netdb.h \
+  ../libevent-modified/include/event2/bufferevent.h \
+  ../libevent-modified/include/event2/event.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/stdio.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_stdio.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/wchar.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_mutex.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/pthread.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sched.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_clk_tck.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/initspin.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_pthread.h \
+  ../libevent-modified/include/event2/listener.h dnscrypt_client.h \
+  dnscrypt.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/core.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/export.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_aead_chacha20poly1305.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha256.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_box.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_hsalsa20.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_generichash.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_onetimeauth.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_pwhash_scryptsalsa208sha256.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_scalarmult.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_secretbox.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_shorthash.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_sign.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_aes128ctr.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_chacha20.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_salsa20.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_salsa208.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_verify_16.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_verify_32.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_verify_64.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/randombytes.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/randombytes_salsa20_random.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/randombytes_sysrandom.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/runtime.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/utils.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/version.h \
+  dnscrypt_proxy.h app.h cert.h ../libevent-modified/include/event2/dns.h \
+  ../ext/queue.h logger.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/syslog.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/syslog.h \
+  probes.h tcp_request.h tcp_request_p.h udp_request.h
+
+../../config.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/types.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/features.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_config.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_arch_features.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/cdefs.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/types.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/wordsize.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stddef.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/kernel_types.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/typesizes.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/pthreadtypes.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sched.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/time.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/endian.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/endian.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/select.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/select.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigset.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/time.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/sysmacros.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/socket.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/uio.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uio.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/socket.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/limits.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/syslimits.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/limits.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/posix1_lim.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/local_lim.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/linux/limits.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_local_lim.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/posix2_lim.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/xopen_lim.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/stdio_lim.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sockaddr.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/asm/socket.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/asm/sockios.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/asm/ioctl.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/netinet/in.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/stdint.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/wchar.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/in.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/linux/version.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/byteswap.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/netinet/tcp.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/assert.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/signal.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/signum.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/siginfo.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigaction.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigcontext.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sgidefs.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigstack.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/ucontext.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/ucontext.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/sigthread.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/stdlib.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/waitflags.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/waitstatus.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/alloca.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/string.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/unistd.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/posix_opt.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/environments.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/confname.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/getopt.h:
+
+../libevent-modified/include/event2/buffer.h:
+
+../libevent-modified/include/event2/event-config.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stdarg.h:
+
+../libevent-modified/include/event2/util.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/time.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/netdb.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/rpc/netdb.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/netdb.h:
+
+../libevent-modified/include/event2/bufferevent.h:
+
+../libevent-modified/include/event2/event.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/stdio.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_stdio.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/wchar.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_mutex.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/pthread.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sched.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_clk_tck.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/initspin.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/bits/uClibc_pthread.h:
+
+../libevent-modified/include/event2/listener.h:
+
+dnscrypt_client.h:
+
+dnscrypt.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/core.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/export.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_aead_chacha20poly1305.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha256.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_auth_hmacsha512256.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_box.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_box_curve25519xsalsa20poly1305.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_hsalsa20.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_salsa20.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_salsa2012.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_core_salsa208.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_generichash.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_generichash_blake2b.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha256.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_hash_sha512.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_onetimeauth.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_onetimeauth_poly1305.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_pwhash_scryptsalsa208sha256.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_scalarmult.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_scalarmult_curve25519.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_secretbox.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_secretbox_xsalsa20poly1305.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_shorthash.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_shorthash_siphash24.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_sign.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_sign_ed25519.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_aes128ctr.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_chacha20.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_salsa20.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_salsa2012.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_salsa208.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_stream_xsalsa20.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_verify_16.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_verify_32.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/crypto_verify_64.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/randombytes.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/randombytes_salsa20_random.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/randombytes_sysrandom.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/runtime.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/utils.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include/sodium/version.h:
+
+dnscrypt_proxy.h:
+
+app.h:
+
+cert.h:
+
+../libevent-modified/include/event2/dns.h:
+
+../ext/queue.h:
+
+logger.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/syslog.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/../../../../mipsel-linux-uclibc/sys-include/sys/syslog.h:
+
+probes.h:
+
+tcp_request.h:
+
+tcp_request_p.h:
+
+udp_request.h:

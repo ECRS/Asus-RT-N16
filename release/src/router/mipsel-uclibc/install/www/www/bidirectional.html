@@ -1,0 +1,22 @@
+# Any Additional scripts to be run in firewall should be added _before_ this line.
+logger -t CUSTOMFIREWALL Initializing custom firewall script to allow bidirectional traffic between LAN and VPN
+while [ 1 ]; do
+    if [ $(ip a s | grep tun0 | tail -n 1 | grep '5.5' | wc -l) -lt 1 ]; then
+        logger -t CUSTOMFIREWALL VPN is not currently connected - sleeping 2 minutes
+        # vpn isn't up; sleep 2 minutes and wait for tun0 to get an IP
+        sleep 120
+    else
+        logger -t CUSTOMFIREWALL VPN connection detected
+        if [ $(iptables -L FORWARD -n --line-numbers --verbose | grep -e '.*br0.*tun0' | wc -l) -lt 1 ]; then
+            logger -t CUSTOMFIREWALL VPN is connected but netfilter rules are missing - adding rules
+            #We have a vpn IP, but we don't have a rule in iptables to bridge the traffic
+            iptables -I FORWARD -i br0 -o tun0 -j ACCEPT
+            iptables -I FORWARD -i tun0 -o br0 -j ACCEPT
+            iptables -t filter -I INPUT 1 -i tun0 --destination "$(ip a s br0 | grep 'inet ' | cut -d'/' -f1 | sed 's/^.*inet //')" -j ACCEPT
+        else
+            logger -t CUSTOMFIREWALL VPN to LAN netfilter rules detected
+        fi
+        logger -t CUSTOMFIREWALL Sleeping 5 minutes
+        sleep 300
+    fi
+done

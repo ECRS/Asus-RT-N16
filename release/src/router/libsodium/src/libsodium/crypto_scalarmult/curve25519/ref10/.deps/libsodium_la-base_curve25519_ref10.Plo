@@ -1,0 +1,20 @@
+crypto_scalarmult/curve25519/ref10/libsodium_la-base_curve25519_ref10.lo \
+  crypto_scalarmult/curve25519/ref10/libsodium_la-base_curve25519_ref10.o:  \
+ crypto_scalarmult/curve25519/ref10/base_curve25519_ref10.c \
+  crypto_scalarmult/curve25519/ref10/api.h \
+  include/sodium/crypto_scalarmult_curve25519.h \
+  /home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stddef.h \
+  include/sodium/export.h include/sodium/crypto_scalarmult.h \
+  include/sodium/crypto_scalarmult_curve25519.h
+
+crypto_scalarmult/curve25519/ref10/api.h:
+
+include/sodium/crypto_scalarmult_curve25519.h:
+
+/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/bin/../lib/gcc/mipsel-linux-uclibc/4.2.4/include/stddef.h:
+
+include/sodium/export.h:
+
+include/sodium/crypto_scalarmult.h:
+
+include/sodium/crypto_scalarmult_curve25519.h:

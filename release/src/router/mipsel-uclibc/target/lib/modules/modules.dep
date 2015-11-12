@@ -1,0 +1,141 @@
+/lib/modules/2.6.22.19/kernel/fs/fuse.ko:
+/lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_ipporthash.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_arp.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/sched/sch_tbf.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/tunnel4.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_IMQ.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_ipportnethash.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/drivers/usb/pl2303.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbserial.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/fs/cifs.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_rtsp.ko:
+/lib/modules/2.6.22.19/kernel/lib/zlib_deflate.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtable_filter.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_time.ko:
+/lib/modules/2.6.22.19/kernel/fs/fat.ko:
+/lib/modules/2.6.22.19/kernel/net/sched/sch_hfsc.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_mark.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/drivers/usb/uhci-hcd.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_TOS.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_condition.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_hl.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_tos.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_h323.ko:
+/lib/modules/2.6.22.19/kernel/fs/vfat.ko: /lib/modules/2.6.22.19/kernel/fs/fat.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_ipp2p.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/et.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv6/netfilter/ip6t_ROUTE.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_dscp.ko:
+/lib/modules/2.6.22.19/kernel/drivers/usb/option.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbserial.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_iphash.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/drivers/usb/cdc-acm.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_DSCP.ko:
+/lib/modules/2.6.22.19/kernel/drivers/connector/cn.ko:
+/lib/modules/2.6.22.19/kernel/drivers/leds/ledtrig-usbdev.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_quota.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_portmap.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_string.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_redirect.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_setlist.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_iptree.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/nf_nat_h323.ko: /lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_h323.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/nf_nat_rtsp.ko: /lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_rtsp.ko
+/lib/modules/2.6.22.19/kernel/drivers/net/emf.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_ip6.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/ipv6/netfilter/ip6t_REJECT.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/nf_nat_pptp.ko: /lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_pptp.ko /lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_proto_gre.ko /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko
+/lib/modules/2.6.22.19/kernel/drivers/net/wl.ko: /lib/modules/2.6.22.19/kernel/drivers/net/igs.ko /lib/modules/2.6.22.19/kernel/drivers/net/emf.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_hashlimit.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_proto_gre.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/bcm_nat.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/huawei_ether.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko /lib/modules/2.6.22.19/kernel/drivers/net/mii.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_limit.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/drivers/usb/cdc-wdm.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/drivers/net/imq.ko:
+/lib/modules/2.6.22.19/kernel/drivers/usb/sierra.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbserial.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/drivers/usb/ehci-hcd.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_policy.ko:
+/lib/modules/2.6.22.19/kernel/drivers/usb/ftdi_sio.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbserial.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_web.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/qmi_wwan.ko: /lib/modules/2.6.22.19/kernel/drivers/net/usbnet.ko /lib/modules/2.6.22.19/kernel/drivers/net/mii.ko /lib/modules/2.6.22.19/kernel/drivers/usb/cdc-wdm.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/lib/ts_fsm.ko:
+/lib/modules/2.6.22.19/kernel/drivers/usb/usblp.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/nf_nat_sip.ko: /lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_sip.ko
+/lib/modules/2.6.22.19/kernel/net/ipv6/netfilter/nf_conntrack_ipv6.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_REDIRECT.ko:
+/lib/modules/2.6.22.19/kernel/fs/nls_euc-jp.ko:
+/lib/modules/2.6.22.19/kernel/lib/ts_bm.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/iptable_raw.ko:
+/lib/modules/2.6.22.19/kernel/fs/nls_cp932.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv6/tunnel6.ko:
+/lib/modules/2.6.22.19/kernel/net/sched/sch_esfq.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_stp.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/fs/nls_cp949.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_set.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_iptreemap.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtable_nat.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_dnat.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/ipv6/netfilter/ip6table_filter.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_webmon.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv6/netfilter/ip6table_mangle.ko:
+/lib/modules/2.6.22.19/kernel/fs/ext3.ko: /lib/modules/2.6.22.19/kernel/fs/jbd.ko /lib/modules/2.6.22.19/kernel/fs/mbcache.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_NETMAP.ko:
+/lib/modules/2.6.22.19/kernel/fs/nls_cp850.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtable_broute.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/drivers/leds/leds-usb.ko: /lib/modules/2.6.22.19/kernel/drivers/leds/led-class.ko /lib/modules/2.6.22.19/kernel/drivers/leds/ledtrig-usbdev.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/fs/nls_cp852.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_ftp.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/cdc_ether.ko: /lib/modules/2.6.22.19/kernel/drivers/net/usbnet.ko /lib/modules/2.6.22.19/kernel/drivers/net/mii.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/fs/nls_cp950.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv6/netfilter/ip6table_raw.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_arpreply.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/drivers/scsi/scsi_mod.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/igs.ko: /lib/modules/2.6.22.19/kernel/drivers/net/emf.ko
+/lib/modules/2.6.22.19/kernel/drivers/usb/usbserial.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_nethash.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_ipmap.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_vlan.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/fs/mbcache.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/usbnet.ko: /lib/modules/2.6.22.19/kernel/drivers/net/mii.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_macipmap.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/fs/ext2.ko: /lib/modules/2.6.22.19/kernel/fs/mbcache.ko
+/lib/modules/2.6.22.19/kernel/drivers/net/cdc_ncm.ko: /lib/modules/2.6.22.19/kernel/drivers/net/usbnet.ko /lib/modules/2.6.22.19/kernel/drivers/net/mii.ko /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/drivers/usb/usb-storage.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko /lib/modules/2.6.22.19/kernel/drivers/scsi/scsi_mod.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_pkttype.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/fs/jbd.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_NFQUEUE.ko:
+/lib/modules/2.6.22.19/kernel/fs/nls_cp936.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set_ipportiphash.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_log.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_geoip.ko:
+/lib/modules/2.6.22.19/kernel/fs/nls_cp866.ko:
+/lib/modules/2.6.22.19/kernel/lib/ts_kmp.ko:
+/lib/modules/2.6.22.19/kernel/drivers/usb/ohci-hcd.ko: /lib/modules/2.6.22.19/kernel/drivers/usb/usbcore.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_CLASSIFY.ko:
+/lib/modules/2.6.22.19/kernel/drivers/scsi/sd_mod.ko: /lib/modules/2.6.22.19/kernel/drivers/scsi/scsi_mod.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/nf_nat_ftp.ko: /lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_ftp.ko
+/lib/modules/2.6.22.19/kernel/fs/nls_cp437.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_NOTRACK.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_recent.ko:
+/lib/modules/2.6.22.19/kernel/lib/zlib_inflate.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_ROUTE.ko:
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_snat.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/ipv6/netfilter/ip6t_LOG.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_HL.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/nf_nat_proto_gre.ko:
+/lib/modules/2.6.22.19/kernel/drivers/leds/led-class.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_pptp.ko: /lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_proto_gre.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ipt_SET.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/netfilter/ip_set.ko
+/lib/modules/2.6.22.19/kernel/net/ipv4/tcp_vegas.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/tun.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_length.ko:
+/lib/modules/2.6.22.19/kernel/fs/jffs2.ko: /lib/modules/2.6.22.19/kernel/lib/zlib_inflate.ko /lib/modules/2.6.22.19/kernel/lib/zlib_deflate.ko
+/lib/modules/2.6.22.19/kernel/drivers/scsi/scsi_wait_scan.ko: /lib/modules/2.6.22.19/kernel/drivers/scsi/scsi_mod.ko
+/lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebt_ip.ko: /lib/modules/2.6.22.19/kernel/net/bridge/netfilter/ebtables.ko
+/lib/modules/2.6.22.19/kernel/net/netfilter/nf_conntrack_sip.ko:
+/lib/modules/2.6.22.19/kernel/drivers/block/loop.ko:
+/lib/modules/2.6.22.19/kernel/net/netfilter/xt_layer7.ko:
+/lib/modules/2.6.22.19/kernel/drivers/net/mii.ko:
+/lib/modules/2.6.22.19/kernel/net/ipv6/sit.ko: /lib/modules/2.6.22.19/kernel/net/ipv4/tunnel4.ko

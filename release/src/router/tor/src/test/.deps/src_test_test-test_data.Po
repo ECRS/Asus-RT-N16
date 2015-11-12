@@ -1,0 +1,2 @@
+src/test/src_test_test-test_data.o src/test/src_test_test-test_data.o:  \
+ src/test/test_data.c
