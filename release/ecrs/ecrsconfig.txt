@@ -1,0 +1,59 @@
+// BASIC
+// -- NETWORK
+// ---- WAN / Internet
+wan_proto = dhcp
+mtu_enable = 0
+wan_mtu = 1500
+modem_ipaddr = 0.0.0.0
+// ---- LAN
+lan_dhcp = 0
+lan_proto = dhcp
+lan_ipaddr = 192.168.1.1
+lan_netmask = 255.255.255.0
+dhcp_num = 239
+lan_lease = 86400
+lan_stp = 0
+dnscrypt_proxy = 0
+// ---- Ethernet Ports State - Configuration
+lan_state = 1
+lan_desc = 1
+lan_invert = 1
+// ---- Wireless
+wl_radio = 1
+wl_mode = ap
+wl_ssid = 101
+wl_channel = 6
+wl_nbw = 20
+wl_security_mode = wpaX_personal
+wl_crypto = aes
+wl_wpa_psk = changeme
+wl_net_reauth = 36000
+// -- Identification
+router_name = ECRS Asus RT-N16
+wan_hostname = ecrsoft.com
+
+// ADVANCED
+// -- DHCP / DNS
+// ---- DHCP / DNS Server (LAN)
+dnsmasq_custom = rebind-domain-ok=/catapultweboffice.com/
+
+// VPN Tunneling
+// -- OpenVPN Client
+// ---- OpenVPN Client Configuration
+vpn_client_eas = 1
+vpn_client1_poll = 5
+
+// Administration
+// -- Admin Access
+// ---- Web Admin
+http_enable = 0
+https_enable = 1
+web_dir = default
+web_css = ecrstomato
+web_mx = status,basic,vpn,admin
+// ---- Username/Password
+http_passwd = Ecrs2652907
+// -- TomatoAnon
+tomatoanon_answer = 1
+tomatoanon_enable = 0
+tomatoanon_notify = 0
