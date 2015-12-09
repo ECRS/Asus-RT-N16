@@ -40,6 +40,7 @@
 
 const defaults_t defaults[] = {
 	{ "restore_defaults",	"0"				},	// Set to 0 to not restore defaults on boot
+	{ "ecrsdefaultsset",            "0"                             },
 
 	// LAN H/W parameters
 //!	{ "lan_ifname",			""				},	// LAN interface name
@@ -385,12 +386,12 @@ const defaults_t defaults[] = {
 	{ "wan_domain",			""				},
 
 // basic-time
-	{ "tm_sel",				"CET-1CEST,M3.5.0/2,M10.5.0/3"	},
-	{ "tm_tz",				"CET-1CEST,M3.5.0/2,M10.5.0/3"	},
-	{ "tm_dst",				"1",							},
+	{ "tm_sel",                     "EST5EDT,M3.2.0/2,M11.1.0/2"    },
+	{ "tm_tz",                      "EST5EDT,M3.2.0/2,M11.1.0/2"    },
+	{ "tm_dst",                     "1"                             },
 	{ "ntp_updates",		"4"								},
 	{ "ntp_tdod",			"0"								},
-	{ "ntp_server",			"0.europe.pool.ntp.org 1.europe.pool.ntp.org 2.europe.pool.ntp.org" },
+	{ "ntp_server",                 "0.north-america.pool.ntp.org 1.north-america.pool.ntp.org 2.north-america.pool.ntp.org" },
 	{ "ntp_kiss",			""								},
 	{ "ntp_kiss_ignore",	""								},
 

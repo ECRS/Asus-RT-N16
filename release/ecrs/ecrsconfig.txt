@@ -31,6 +31,11 @@ wl_net_reauth = 36000
 // -- Identification
 router_name = ECRS Asus RT-N16
 wan_hostname = ecrsoft.com
+// -- Time
+tm_sel = EST5EDT,M3.2.0/2,M11.1.0/2
+tm_tz = EST5EDT,M3.2.0/2,M11.1.0/2
+tm_dst = 1
+ntp_server = 0.north-america.pool.ntp.org 1.north-america.pool.ntp.org 2.north-america.pool.ntp.org
 
 // ADVANCED
 // -- DHCP / DNS
@@ -57,3 +62,4 @@ http_passwd = Ecrs2652907
 tomatoanon_answer = 1
 tomatoanon_enable = 0
 tomatoanon_notify = 0
+ecrsdefaultsset = 0

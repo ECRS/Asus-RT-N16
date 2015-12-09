@@ -27,6 +27,7 @@ COMMENT
 ./insertecrsstyle.sh
 ./insertecrsjs.sh
 ./insertecrsconfig.sh
+./insertecrsupgrade.sh
 
 ## Now build the firmware
 MAJOR_VERSION=$(grep -i 'version' VERSION | cut -f2 -d'=' | awk '{$1=$1};1')

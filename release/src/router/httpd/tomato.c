@@ -24,6 +24,7 @@ int rboot = 0;
 extern int post;
 
 static void asp_css(int argc, char **argv);
+static void asp_setecrsdefaults(int argc, char **argv);
 static void asp_resmsg(int argc, char **argv);
 
 //
@@ -417,6 +418,7 @@ const aspapi_t aspapi[] = {
 #endif
 
 	{ "css",				asp_css				},
+    { "setecrsdefaults",    asp_setecrsdefaults },
 	{ NULL,					NULL				}
 };
 
@@ -434,6 +436,31 @@ static void asp_css(int argc, char **argv)
 			web_printf("<link rel='stylesheet' type='text/css' href='%s.css'>", css);
 		}
 	}
+}
+
+// ATS - Create setecrsdefaults() that can be called by all .asp files; is used in
+// setecrsdefaults.asp to force certain defaults to be set after an upgrade
+static void asp_setecrsdefaults(int argc, char **argv)
+{
+        nvram_set("lan_state",          "1");
+        nvram_set("lan_desc",           "1");
+        nvram_set("lan_invert",         "1");
+        nvram_set("dnsmasq_custom",     "rebind-domain-ok=/catapultweboffice.com/");
+        nvram_set("vpn_client_eas",     "1");
+        nvram_set("vpn_client1_poll",   "5");
+        nvram_set("http_enable",        "0");
+        nvram_set("https_enable",       "1");
+        nvram_set("remote_management",  "0");
+        nvram_set("remote_mgt_https",   "0");
+        nvram_set("sshd_remote",        "0");
+        nvram_set("web_dir",            "default");
+        nvram_set("web_css",            "ecrstomato");
+        nvram_set("web_mx",             "status,basic,vpn,admin");
+        nvram_set("tomatoanon_answer",  "1");
+        nvram_set("tomatoanon_enable",  "0");
+        nvram_set("tomatoanon_notify",  "0");
+
+        nvram_set("ecrsdefaultsset",    "1");
 }
 
 // -----------------------------------------------------------------------------

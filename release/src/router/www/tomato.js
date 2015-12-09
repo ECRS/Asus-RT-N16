@@ -2480,8 +2480,8 @@ function navi()
 			['Wireless Filter',		'wfilter.asp'] ] ],
 		['Advanced', 			'advanced', 0, [
 			['Conntrack/Netfilter',		'ctnf.asp'],
-			['DHCP/DNS',			'dhcpdns.asp'],
 			['Firewall',			'firewall.asp'],
+            ['DHCP/DNS',            'dhcpdns.asp'],
 			['MAC Address',			'mac.asp'],
 			['Miscellaneous',		'misc.asp'],
 			['Routing',			'routing.asp'],
@@ -2492,13 +2492,13 @@ function navi()
 			['LAN Access',			'access.asp'],
 			['Virtual Wireless',		'wlanvifs.asp'],
 			['Wireless',			'wireless.asp'] ] ],
-        ['ECRS',                    'ecrs', 0,
+/*        ['ECRS',                    'ecrs', 0,
             [
                 ['Kiosk Configuration',      'kiosk.asp']
                 , ['Headquarters',          'hq.asp']
                 , ['Remote Store',          'rs.asp']
             ]
-        ],
+        ],*/
 		['Port Forwarding', 		'forward', 0, [
 			['Basic',			'basic.asp'],
 /* IPV6-BEGIN */

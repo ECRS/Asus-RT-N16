@@ -1,6 +1,6 @@
 #!/bin/bash
 
-hiddenmenus=( basic-ddns advanced-ctnf nas-ftp nas-samba nas-media vpn-server vpn-pptp-server vpn-pptp-online vpn-pptp admin-tomatoanon admin-cifs admin-jffs2 )
+hiddenmenus=( basic-ddns advanced-ctnf advanced-dhcpdns nas-ftp nas-samba nas-media vpn-server vpn-pptp-server vpn-pptp-online vpn-pptp admin-tomatoanon admin-cifs admin-jffs2 )
 
 hiddensections=( "Telnet Daemon" "Ethernet Ports State - Configuration" )
 

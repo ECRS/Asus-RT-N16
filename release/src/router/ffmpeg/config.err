@@ -1002,7 +1002,7 @@ LINUXDIR='/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6'
 LOGNAME='astclair'
 LS_COLORS='rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'
 MAIL='/var/mail/astclair'
-MAKEFLAGS='w -- PPTPD=y DNSCRYPT=y USB=USB BUILD_DESC=VPN B=E IPV6SUPP=y MEDIASRV=y EBTABLES=y USBEXTRAS=y BBEXTRAS=y NTFS=y OPENVPN=y V2=-132.1.1018 V1=RT-N16- MIPS32=r2'
+MAKEFLAGS='w -- PPTPD=y DNSCRYPT=y USB=USB BUILD_DESC=VPN B=E IPV6SUPP=y MEDIASRV=y EBTABLES=y USBEXTRAS=y BBEXTRAS=y NTFS=y OPENVPN=y V2=-132.1.1021 V1=RT-N16- MIPS32=r2'
 MAKELEVEL='5'
 MAKEOVERRIDES='${-*-command-variables-*-}'
 MEDIASRV='y'
@@ -1140,7 +1140,7 @@ PATHS_LIST='
 '
 PLATFORM='mipsel-uclibc'
 PLATFORMDIR='/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc'
-PPID='11728'
+PPID='13015'
 PPTPD='y'
 PROTOCOL_LIST='file_protocol
 gopher_protocol
@@ -1170,9 +1170,9 @@ SLIBNAME_WITH_VERSION='$(SLIBNAME).$(LIBVERSION)'
 SLIBPREF='lib'
 SLIBSUF='.so'
 SRCBASE='/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt'
-SSH_CLIENT='10.1.117.224 27939 22'
-SSH_CONNECTION='10.1.117.224 27939 10.1.117.156 22'
-SSH_TTY='/dev/pts/1'
+SSH_CLIENT='10.1.117.224 29563 22'
+SSH_CONNECTION='10.1.117.224 29563 10.1.117.156 22'
+SSH_TTY='/dev/pts/2'
 STRIP='mipsel-uclibc-strip -R .note -R .comment'
 TARGETDIR='/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target'
 TCONFIG_IPV6='y'
@@ -1192,9 +1192,9 @@ USBEXTRAS='y'
 USER='astclair'
 USRLIBDIR='/home/astclair/AsusRT-N16/trunk/tomato/tools/brcm/K26/hndtools-mipsel-uclibc-4.2.4/usr/lib'
 V1='RT-N16-'
-V2='-132.1.1018'
+V2='-132.1.1021'
 XDG_RUNTIME_DIR='/run/user/1000'
-XDG_SESSION_ID='6'
+XDG_SESSION_ID='2'
 _='/usr/bin/make'
 aac_adtstoasc_bsf_select='aac_parser'
 aac_decoder='yes'
@@ -2375,801 +2375,801 @@ type mktemp
 mktemp is /bin/mktemp
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_cflags -std=c99
 check_cc -std=c99
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc -D_FILE_OFFSET_BITS=64
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <stdlib.h>
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -D_FILE_OFFSET_BITS=64 -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -D_FILE_OFFSET_BITS=64 -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc -D_LARGEFILE_SOURCE
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <stdlib.h>
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -D_LARGEFILE_SOURCE -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -D_LARGEFILE_SOURCE -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_host_cflags -std=c99
 check_host_cc -std=c99
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -O3 -g -Wall -std=c99 -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -O3 -g -Wall -std=c99 -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cpp_condition stdlib.h defined(__PIC__) || defined(__pic__) || defined(PIC)
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <stdlib.h>
     2	#if !(defined(__PIC__) || defined(__pic__) || defined(PIC))
     3	#error "unsatisfied condition: defined(__PIC__) || defined(__pic__) || defined(PIC)"
     4	#endif
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -fomit-frame-pointer
 check_cc -fomit-frame-pointer
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int ff_extern;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	void foo(void) { __asm__ volatile ("" ::); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	void foo(char * restrict p);
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	struct { int x; } __attribute__((packed)) x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	union { int x; } __attribute__((may_alias)) x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	unsigned int endian = 'B' << 24 | 'I' << 16 | 'G' << 8 | 'E';
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_asm loongson "dmult.g $1, $2, $3"
 check_as
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	void foo(void){ __asm__ volatile("dmult.g $1, $2, $3"); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 {standard input}: Assembler messages:
 {standard input}:15: Error: opcode not supported on this processor: mips32 (mips32) `dmult.g $1,$2,$3'
 check_asm mmi "lq $2, 0($2)"
 check_as
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	void foo(void){ __asm__ volatile("lq $2, 0($2)"); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 {standard input}: Assembler messages:
 {standard input}:15: Error: unrecognized opcode `lq $2,0($2)'
 check_func dlopen
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int dlopen();
     2	int main(void){ dlopen(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
-/tmp/ffconf.bpvsbclE.o: In function `main':
-ffconf.KARtfHXf.c:(.text.main+0x18): undefined reference to `dlopen'
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+/tmp/ffconf.CLc6GvxU.o: In function `main':
+ffconf.FIOA3mUR.c:(.text.main+0x18): undefined reference to `dlopen'
 collect2: ld returned 1 exit status
 check_func dlopen -ldl
 check_ld -ldl
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int dlopen();
     2	int main(void){ dlopen(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -ldl
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -ldl
 check_func nanosleep
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int nanosleep();
     2	int main(void){ nanosleep(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func fork
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int fork();
     2	int main(void){ fork(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func getaddrinfo
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int getaddrinfo();
     2	int main(void){ getaddrinfo(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func gethrtime
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int gethrtime();
     2	int main(void){ gethrtime(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
-/tmp/ffconf.bpvsbclE.o: In function `main':
-ffconf.KARtfHXf.c:(.text.main+0x18): undefined reference to `gethrtime'
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+/tmp/ffconf.CLc6GvxU.o: In function `main':
+ffconf.FIOA3mUR.c:(.text.main+0x18): undefined reference to `gethrtime'
 collect2: ld returned 1 exit status
 check_func getrusage
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int getrusage();
     2	int main(void){ getrusage(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_type sys/time.h sys/resource.h struct rusage ru_maxrss
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <sys/time.h>
     3	#include <sys/resource.h>
     4	const void *p = &((struct rusage *)0)->ru_maxrss;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_func inet_aton
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int inet_aton();
     2	int main(void){ inet_aton(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func isatty
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int isatty();
     2	int main(void){ isatty(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func memalign
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int memalign();
     2	int main(void){ memalign(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func mkstemp
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int mkstemp();
     2	int main(void){ mkstemp(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func posix_memalign
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int posix_memalign();
     2	int main(void){ posix_memalign(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
-/tmp/ffconf.bpvsbclE.o: In function `main':
-ffconf.KARtfHXf.c:(.text.main+0x18): undefined reference to `posix_memalign'
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+/tmp/ffconf.CLc6GvxU.o: In function `main':
+ffconf.FIOA3mUR.c:(.text.main+0x18): undefined reference to `posix_memalign'
 collect2: ld returned 1 exit status
 check_func setrlimit
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int setrlimit();
     2	int main(void){ setrlimit(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func strerror_r
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int strerror_r();
     2	int main(void){ strerror_r(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz
 check_func_headers io.h setmode
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <io.h>
     3	int main(int argc, char **argv){
     4	    return (long) setmode;
     5	}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:16: error: io.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c: In function 'main':
-/tmp/ffconf.KARtfHXf.c:4: error: 'setmode' undeclared (first use in this function)
-/tmp/ffconf.KARtfHXf.c:4: error: (Each undeclared identifier is reported only once
-/tmp/ffconf.KARtfHXf.c:4: error: for each function it appears in.)
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:16: error: io.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c: In function 'main':
+/tmp/ffconf.FIOA3mUR.c:4: error: 'setmode' undeclared (first use in this function)
+/tmp/ffconf.FIOA3mUR.c:4: error: (Each undeclared identifier is reported only once
+/tmp/ffconf.FIOA3mUR.c:4: error: for each function it appears in.)
 check_func_headers lzo/lzo1x.h lzo1x_999_compress
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <lzo/lzo1x.h>
     3	int main(int argc, char **argv){
     4	    return (long) lzo1x_999_compress;
     5	}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:23: error: lzo/lzo1x.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c: In function 'main':
-/tmp/ffconf.KARtfHXf.c:4: error: 'lzo1x_999_compress' undeclared (first use in this function)
-/tmp/ffconf.KARtfHXf.c:4: error: (Each undeclared identifier is reported only once
-/tmp/ffconf.KARtfHXf.c:4: error: for each function it appears in.)
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:23: error: lzo/lzo1x.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c: In function 'main':
+/tmp/ffconf.FIOA3mUR.c:4: error: 'lzo1x_999_compress' undeclared (first use in this function)
+/tmp/ffconf.FIOA3mUR.c:4: error: (Each undeclared identifier is reported only once
+/tmp/ffconf.FIOA3mUR.c:4: error: for each function it appears in.)
 check_lib2 windows.h psapi.h GetProcessMemoryInfo -lpsapi
 check_func_headers windows.h psapi.h GetProcessMemoryInfo -lpsapi
 check_ld -lpsapi
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <windows.h>
     3	#include <psapi.h>
     4	int main(int argc, char **argv){
     5	    return (long) GetProcessMemoryInfo;
     6	}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:21: error: windows.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c:3:19: error: psapi.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c: In function 'main':
-/tmp/ffconf.KARtfHXf.c:5: error: 'GetProcessMemoryInfo' undeclared (first use in this function)
-/tmp/ffconf.KARtfHXf.c:5: error: (Each undeclared identifier is reported only once
-/tmp/ffconf.KARtfHXf.c:5: error: for each function it appears in.)
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:21: error: windows.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c:3:19: error: psapi.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c: In function 'main':
+/tmp/ffconf.FIOA3mUR.c:5: error: 'GetProcessMemoryInfo' undeclared (first use in this function)
+/tmp/ffconf.FIOA3mUR.c:5: error: (Each undeclared identifier is reported only once
+/tmp/ffconf.FIOA3mUR.c:5: error: for each function it appears in.)
 check_func_headers windows.h GetProcessTimes
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <windows.h>
     3	int main(int argc, char **argv){
     4	    return (long) GetProcessTimes;
     5	}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:21: error: windows.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c: In function 'main':
-/tmp/ffconf.KARtfHXf.c:4: error: 'GetProcessTimes' undeclared (first use in this function)
-/tmp/ffconf.KARtfHXf.c:4: error: (Each undeclared identifier is reported only once
-/tmp/ffconf.KARtfHXf.c:4: error: for each function it appears in.)
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:21: error: windows.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c: In function 'main':
+/tmp/ffconf.FIOA3mUR.c:4: error: 'GetProcessTimes' undeclared (first use in this function)
+/tmp/ffconf.FIOA3mUR.c:4: error: (Each undeclared identifier is reported only once
+/tmp/ffconf.FIOA3mUR.c:4: error: for each function it appears in.)
 check_func_headers windows.h VirtualAlloc
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <windows.h>
     3	int main(int argc, char **argv){
     4	    return (long) VirtualAlloc;
     5	}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:21: error: windows.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c: In function 'main':
-/tmp/ffconf.KARtfHXf.c:4: error: 'VirtualAlloc' undeclared (first use in this function)
-/tmp/ffconf.KARtfHXf.c:4: error: (Each undeclared identifier is reported only once
-/tmp/ffconf.KARtfHXf.c:4: error: for each function it appears in.)
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:21: error: windows.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c: In function 'main':
+/tmp/ffconf.FIOA3mUR.c:4: error: 'VirtualAlloc' undeclared (first use in this function)
+/tmp/ffconf.FIOA3mUR.c:4: error: (Each undeclared identifier is reported only once
+/tmp/ffconf.FIOA3mUR.c:4: error: for each function it appears in.)
 check_header conio.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <conio.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:19: error: conio.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:19: error: conio.h: No such file or directory
 check_header dlfcn.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <dlfcn.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header dxva2api.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <dxva2api.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:22: error: dxva2api.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:22: error: dxva2api.h: No such file or directory
 check_header malloc.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <malloc.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header poll.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <poll.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header sys/mman.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <sys/mman.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header sys/resource.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <sys/resource.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header sys/select.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <sys/select.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header termios.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <termios.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header vdpau/vdpau.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <vdpau/vdpau.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:25: error: vdpau/vdpau.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:25: error: vdpau/vdpau.h: No such file or directory
 check_header vdpau/vdpau_x11.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <vdpau/vdpau_x11.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:29: error: vdpau/vdpau_x11.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:29: error: vdpau/vdpau_x11.h: No such file or directory
 check_header X11/extensions/XvMClib.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <X11/extensions/XvMClib.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:36: error: X11/extensions/XvMClib.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:36: error: X11/extensions/XvMClib.h: No such file or directory
 check_type dxva2api.h DXVA_PictureParameters wDecodedPictureIndex
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <dxva2api.h>
     3	const void *p = &((DXVA_PictureParameters *)0)->wDecodedPictureIndex;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:22: error: dxva2api.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c:3: error: 'DXVA_PictureParameters' undeclared here (not in a function)
-/tmp/ffconf.KARtfHXf.c:3: error: expected expression before ')' token
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:22: error: dxva2api.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c:3: error: 'DXVA_PictureParameters' undeclared here (not in a function)
+/tmp/ffconf.FIOA3mUR.c:3: error: expected expression before ')' token
 check_lib zlib.h zlibVersion -lz
 check_header zlib.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <zlib.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_func zlibVersion
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int zlibVersion();
     2	int main(void){ zlibVersion(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz
 check_lib2 bzlib.h BZ2_bzlibVersion -lbz2
 check_func_headers bzlib.h BZ2_bzlibVersion -lbz2
 check_ld -lbz2
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <bzlib.h>
     3	int main(int argc, char **argv){
     4	    return (long) BZ2_bzlibVersion;
     5	}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:19: error: bzlib.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c: In function 'main':
-/tmp/ffconf.KARtfHXf.c:4: error: 'BZ2_bzlibVersion' undeclared (first use in this function)
-/tmp/ffconf.KARtfHXf.c:4: error: (Each undeclared identifier is reported only once
-/tmp/ffconf.KARtfHXf.c:4: error: for each function it appears in.)
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:19: error: bzlib.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c: In function 'main':
+/tmp/ffconf.FIOA3mUR.c:4: error: 'BZ2_bzlibVersion' undeclared (first use in this function)
+/tmp/ffconf.FIOA3mUR.c:4: error: (Each undeclared identifier is reported only once
+/tmp/ffconf.FIOA3mUR.c:4: error: for each function it appears in.)
 check_func pthread_create
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int pthread_create();
     2	int main(void){ pthread_create(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz
-/tmp/ffconf.bpvsbclE.o: In function `main':
-ffconf.KARtfHXf.c:(.text.main+0x18): undefined reference to `pthread_create'
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz
+/tmp/ffconf.CLc6GvxU.o: In function `main':
+ffconf.FIOA3mUR.c:(.text.main+0x18): undefined reference to `pthread_create'
 collect2: ld returned 1 exit status
 check_func pthread_create -pthread
 check_ld -pthread
 check_cc -pthread
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int pthread_create();
     2	int main(void){ pthread_create(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -pthread -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -pthread -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz
 check_lib math.h sin -lm
 check_header math.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_func sin
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	extern int sin();
     2	int main(void){ sin(); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1: warning: conflicting types for built-in function 'sin'
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1: warning: conflicting types for built-in function 'sin'
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_lib va/va.h vaInitialize -lva
 check_header va/va.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <va/va.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:19: error: va/va.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:19: error: va/va.h: No such file or directory
 check_mathfunc exp2
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return exp2(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc exp2f
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return exp2f(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc llrint
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return llrint(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc llrintf
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return llrintf(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc log2
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return log2(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc log2f
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return log2f(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc lrint
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return lrint(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc lrintf
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return lrintf(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc round
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return round(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc roundf
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return roundf(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_mathfunc truncf
 check_ld
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <math.h>
     2	float foo(float f) { return truncf(f); }
     3	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_header linux/videodev.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <linux/videodev.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header linux/videodev2.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <linux/videodev2.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header sys/videoio.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <sys/videoio.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:25: error: sys/videoio.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:25: error: sys/videoio.h: No such file or directory
 check_func_headers windows.h vfw.h capCreateCaptureWindow -lavicap32
 check_ld -lavicap32
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	
     2	#include <windows.h>
     3	#include <vfw.h>
     4	int main(int argc, char **argv){
     5	    return (long) capCreateCaptureWindow;
     6	}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2:21: error: windows.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c:3:17: error: vfw.h: No such file or directory
-/tmp/ffconf.KARtfHXf.c: In function 'main':
-/tmp/ffconf.KARtfHXf.c:5: error: 'capCreateCaptureWindow' undeclared (first use in this function)
-/tmp/ffconf.KARtfHXf.c:5: error: (Each undeclared identifier is reported only once
-/tmp/ffconf.KARtfHXf.c:5: error: for each function it appears in.)
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2:21: error: windows.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c:3:17: error: vfw.h: No such file or directory
+/tmp/ffconf.FIOA3mUR.c: In function 'main':
+/tmp/ffconf.FIOA3mUR.c:5: error: 'capCreateCaptureWindow' undeclared (first use in this function)
+/tmp/ffconf.FIOA3mUR.c:5: error: (Each undeclared identifier is reported only once
+/tmp/ffconf.FIOA3mUR.c:5: error: for each function it appears in.)
 check_header dev/bktr/ioctl_meteor.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <dev/bktr/ioctl_meteor.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:35: error: dev/bktr/ioctl_meteor.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:35: error: dev/bktr/ioctl_meteor.h: No such file or directory
 check_header machine/ioctl_meteor.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <machine/ioctl_meteor.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:34: error: machine/ioctl_meteor.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:34: error: machine/ioctl_meteor.h: No such file or directory
 check_header dev/video/meteor/ioctl_meteor.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <dev/video/meteor/ioctl_meteor.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:43: error: dev/video/meteor/ioctl_meteor.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:43: error: dev/video/meteor/ioctl_meteor.h: No such file or directory
 check_header dev/ic/bt8xx.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <dev/ic/bt8xx.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:26: error: dev/ic/bt8xx.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:26: error: dev/ic/bt8xx.h: No such file or directory
 check_header sys/soundcard.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <sys/soundcard.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_header soundcard.h
 check_cpp
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	#include <soundcard.h>
     2	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:1:23: error: soundcard.h: No such file or directory
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -E -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:1:23: error: soundcard.h: No such file or directory
 check_cflags -Wdeclaration-after-statement
 check_cc -Wdeclaration-after-statement
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wall
 check_cc -Wall
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wno-switch
 check_cc -Wno-switch
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wdisabled-optimization
 check_cc -Wdisabled-optimization
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wpointer-arith
 check_cc -Wpointer-arith
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wredundant-decls
 check_cc -Wredundant-decls
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wno-pointer-sign
 check_cc -Wno-pointer-sign
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wcast-qual
 check_cc -Wcast-qual
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wwrite-strings
 check_cc -Wwrite-strings
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wtype-limits
 check_cc -Wtype-limits
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wtype-limits -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wtype-limits -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 cc1: error: unrecognized command line option "-Wtype-limits"
 check_cflags -Wundef
 check_cc -Wundef
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Wmissing-prototypes
 check_cc -Wmissing-prototypes
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_ldflags -Wl,--warn-common
 test_ldflags -Wl,--warn-common
 check_ld -Wl,--warn-common
 check_cc -Wl,--warn-common
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,--warn-common -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,--warn-common -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 mipsel-uclibc-gcc: --warn-common: linker input file unused because linking not done
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_ldflags -Wl,--as-needed
 test_ldflags -Wl,--as-needed
 check_ld -Wl,--as-needed
 check_cc -Wl,--as-needed
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,--as-needed -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,--as-needed -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 mipsel-uclibc-gcc: --as-needed: linker input file unused because linking not done
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_ldflags -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil
 test_ldflags -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil
 check_ld -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil
 check_cc -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 mipsel-uclibc-gcc: -rpath-link: linker input file unused because linking not done
 mipsel-uclibc-gcc: \$(BUILD_ROOT)/libpostproc: linker input file unused because linking not done
 mipsel-uclibc-gcc: -rpath-link: linker input file unused because linking not done
@@ -3184,33 +3184,33 @@ mipsel-uclibc-gcc: -rpath-link: linker input file unused because linking not don
 mipsel-uclibc-gcc: \$(BUILD_ROOT)/libavcodec: linker input file unused because linking not done
 mipsel-uclibc-gcc: -rpath-link: linker input file unused because linking not done
 mipsel-uclibc-gcc: \$(BUILD_ROOT)/libavutil: linker input file unused because linking not done
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -Wl,-rpath-link,\$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,\$(BUILD_ROOT)/libswscale -Wl,-rpath-link,\$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,\$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,\$(BUILD_ROOT)/libavformat -Wl,-rpath-link,\$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,\$(BUILD_ROOT)/libavutil -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_ldflags -Wl,-Bsymbolic
 test_ldflags -Wl,-Bsymbolic
 check_ld -Wl,-Bsymbolic
 check_cc -Wl,-Bsymbolic
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,-Bsymbolic -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,-Bsymbolic -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 mipsel-uclibc-gcc: -Bsymbolic: linker input file unused because linking not done
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -Wl,-rpath-link,$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,$(BUILD_ROOT)/libswscale -Wl,-rpath-link,$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,$(BUILD_ROOT)/libavformat -Wl,-rpath-link,$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,$(BUILD_ROOT)/libavutil -Wl,-Bsymbolic -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
-test_ldflags -Wl,--version-script,/tmp/ffconf.3T0iZQdi.ver
-check_ld -Wl,--version-script,/tmp/ffconf.3T0iZQdi.ver
-check_cc -Wl,--version-script,/tmp/ffconf.3T0iZQdi.ver
-BEGIN /tmp/ffconf.KARtfHXf.c
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -Wl,-rpath-link,$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,$(BUILD_ROOT)/libswscale -Wl,-rpath-link,$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,$(BUILD_ROOT)/libavformat -Wl,-rpath-link,$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,$(BUILD_ROOT)/libavutil -Wl,-Bsymbolic -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+test_ldflags -Wl,--version-script,/tmp/ffconf.spHI0AKU.ver
+check_ld -Wl,--version-script,/tmp/ffconf.spHI0AKU.ver
+check_cc -Wl,--version-script,/tmp/ffconf.spHI0AKU.ver
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int main(void){ return 0; }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,--version-script,/tmp/ffconf.3T0iZQdi.ver -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Wl,--version-script,/tmp/ffconf.spHI0AKU.ver -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 mipsel-uclibc-gcc: --version-script: linker input file unused because linking not done
-mipsel-uclibc-gcc: /tmp/ffconf.3T0iZQdi.ver: linker input file unused because linking not done
-mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -Wl,-rpath-link,$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,$(BUILD_ROOT)/libswscale -Wl,-rpath-link,$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,$(BUILD_ROOT)/libavformat -Wl,-rpath-link,$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,$(BUILD_ROOT)/libavutil -Wl,-Bsymbolic -Wl,--version-script,/tmp/ffconf.3T0iZQdi.ver -o /tmp/ffconf.ReHKcnBc /tmp/ffconf.bpvsbclE.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
+mipsel-uclibc-gcc: /tmp/ffconf.spHI0AKU.ver: linker input file unused because linking not done
+mipsel-uclibc-gcc -ffunction-sections -fdata-sections -Wl,--gc-sections -fPIC -Wl,--warn-common -Wl,--as-needed -Wl,-rpath-link,$(BUILD_ROOT)/libpostproc -Wl,-rpath-link,$(BUILD_ROOT)/libswscale -Wl,-rpath-link,$(BUILD_ROOT)/libavfilter -Wl,-rpath-link,$(BUILD_ROOT)/libavdevice -Wl,-rpath-link,$(BUILD_ROOT)/libavformat -Wl,-rpath-link,$(BUILD_ROOT)/libavcodec -Wl,-rpath-link,$(BUILD_ROOT)/libavutil -Wl,-Bsymbolic -Wl,--version-script,/tmp/ffconf.spHI0AKU.ver -o /tmp/ffconf.yqeLNs0d /tmp/ffconf.CLc6GvxU.o -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -lz -lz -pthread -lm
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	void ff_foo(void) __asm__ ("av_foo@VERSION");
     2	void ff_foo(void) { __asm__(""); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 {standard input}: Assembler messages:
 {standard input}:7: Error: : no such section
 {standard input}:7: Error: junk at end of line, first unrecognized character is `@'
@@ -3220,46 +3220,46 @@ mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=
 {standard input}:10: Error: unrecognized opcode `av_foo@VERSION:'
 {standard input}:15: Error: junk at end of line, first unrecognized character is `@'
 check_cc
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	__asm__(".symver ff_foo,av_foo@VERSION");
     2	void ff_foo(void) {}
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
-/tmp/ffconf.KARtfHXf.c:2: warning: no previous prototype for 'ff_foo'
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
+/tmp/ffconf.FIOA3mUR.c:2: warning: no previous prototype for 'ff_foo'
 check_cflags -fno-math-errno
 check_cc -fno-math-errno
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -fno-signed-zeros
 check_cc -fno-signed-zeros
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-signed-zeros -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-signed-zeros -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 cc1: error: unrecognized command line option "-fno-signed-zeros"
 check_cflags -fno-tree-vectorize
 check_cc -fno-tree-vectorize
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-tree-vectorize -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-tree-vectorize -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Werror=implicit
 check_cc -Werror=implicit
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-tree-vectorize -Werror=implicit -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-tree-vectorize -Werror=implicit -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_cflags -Werror=missing-prototypes
 check_cc -Werror=missing-prototypes
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	int x;
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-tree-vectorize -Werror=implicit -Werror=missing-prototypes -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -std=c99 -fomit-frame-pointer -fPIC -pthread -Wdeclaration-after-statement -Wall -Wno-switch -Wdisabled-optimization -Wpointer-arith -Wredundant-decls -Wno-pointer-sign -Wcast-qual -Wwrite-strings -Wundef -Wmissing-prototypes -Os -fno-math-errno -fno-tree-vectorize -Werror=implicit -Werror=missing-prototypes -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c
 check_asm asmalign_pot ".align 3"
 check_as
-BEGIN /tmp/ffconf.KARtfHXf.c
+BEGIN /tmp/ffconf.FIOA3mUR.c
     1	void foo(void){ __asm__ volatile(".align 3"); }
-END /tmp/ffconf.KARtfHXf.c
-mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -fPIC -c -o /tmp/ffconf.bpvsbclE.o /tmp/ffconf.KARtfHXf.c
+END /tmp/ffconf.FIOA3mUR.c
+mipsel-uclibc-gcc -D_ISOC99_SOURCE -D_POSIX_C_SOURCE=200112 -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DPIC -Os -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32 -ffunction-sections -fdata-sections -fPIC -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/zlib -fPIC -c -o /tmp/ffconf.CLc6GvxU.o /tmp/ffconf.FIOA3mUR.c

@@ -49,6 +49,15 @@ bgmo = {'disabled':'-','mixed':'Auto','b-only':'B Only','g-only':'G Only','bg-mi
 <script type='text/javascript' src='status-data.jsx?_http_id=<% nv(http_id); %>'></script>
 
 <script type='text/javascript'>
+var ecrsdefaultsset = "<% nv(ecrsdefaultsset); %>";
+
+// If not equal this router has just been upgraded, so defaults need to be reset
+if (ecrsdefaultsset != "1")
+{
+    window.location.replace("setecrsdefaults.asp");
+}
+
+
 show_dhcpc = ((nvram.wan_proto == 'dhcp') || (nvram.wan_proto == 'lte') || (((nvram.wan_proto == 'l2tp') || (nvram.wan_proto == 'pptp')) && (nvram.pptp_dhcp == '1')));
 show_codi = ((nvram.wan_proto == 'pppoe') || (nvram.wan_proto == 'l2tp') || (nvram.wan_proto == 'pptp') || (nvram.wan_proto == 'ppp3g'));
 

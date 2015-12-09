@@ -29,10 +29,10 @@
 <br>
 <p>Several components of this firmware are copyrighted by other parties and distributed under multiple licenses.</p>
 <br>
-</p>This firmware is distributed under the terms of the GNU General Public License v3.0, or any later version. This requires public availability of the source code. To obtain the source code for this firmware, go to <a href="#">CREATE ECRS OPEN SOURCE GITHUB ACCOUNT</a>.
+</p>This firmware is distributed under the terms of the GNU General Public License v3.0, or any later version. This requires public availability of the source code. To obtain the source code for this firmware, go to <a target="_blank" href="https://github.com/ECRS/Asus-RT-N16.git">our GitHub repository</a>.
 <br>
 <br>
-<pre id="buildtime">Built on Thu 12 Nov 2015 08:43:18 AM EST</pre>
+<pre id="buildtime">Built on Wed 09 Dec 2015 09:48:15 AM EST</pre>
 </td>
 </tr>
 </table>

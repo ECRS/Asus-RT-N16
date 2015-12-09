@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.22.19
- * Thu Nov 12 08:51:37 2015
+ * Wed Dec  9 09:56:26 2015
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_INET_XFRM_TUNNEL_MODULE 1
@@ -479,7 +479,7 @@
 #define CONFIG_IP6_NF_TARGET_ROUTE_MODULE 1
 #define CONFIG_IP_NF_TARGET_NETMAP_MODULE 1
 #define CONFIG_NF_NAT 1
-#define CONFIG_UNAME_RELEASE "3.19.0-31-generic"
+#define CONFIG_UNAME_RELEASE "3.19.0-33-generic"
 #define CONFIG_USB_GSPCA_SPCA505_MODULE 1
 #define CONFIG_IP_NF_SET_MODULE 1
 #define CONFIG_PAGE_SIZE_4KB 1

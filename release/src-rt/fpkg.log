@@ -1802,3 +1802,1015 @@ TRX Image:
    1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
    2: 0x000E7C00  router/mipsel-uclibc/target.image
 
+
+*********************** Wed Nov 18 17:22:59 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1020 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.32 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20651.12 Kbytes)
+Inode table size 9030 bytes (8.82 Kbytes)
+	21.64% of uncompressed inode table size (41722 bytes)
+Directory table size 10697 bytes (10.45 Kbytes)
+	53.20% of uncompressed directory table size (20106 bytes)
+No duplicate files removed
+Number of inodes 1292
+Number of files 1054
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1020-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E9CDB6CE
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 09:02:01 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.59 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.15 Kbytes)
+Inode table size 9031 bytes (8.82 Kbytes)
+	21.65% of uncompressed inode table size (41722 bytes)
+Directory table size 10699 bytes (10.45 Kbytes)
+	53.21% of uncompressed directory table size (20106 bytes)
+No duplicate files removed
+Number of inodes 1292
+Number of files 1054
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 2E2DFF52
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 09:51:06 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.61 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.17 Kbytes)
+Inode table size 9010 bytes (8.80 Kbytes)
+	21.60% of uncompressed inode table size (41722 bytes)
+Directory table size 10699 bytes (10.45 Kbytes)
+	53.21% of uncompressed directory table size (20106 bytes)
+No duplicate files removed
+Number of inodes 1292
+Number of files 1054
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E165E886
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 10:43:56 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.85 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.94 Kbytes)
+Inode table size 9064 bytes (8.85 Kbytes)
+	21.71% of uncompressed inode table size (41754 bytes)
+Directory table size 10714 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : BDA12DFA
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 10:59:44 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.80 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.92 Kbytes)
+Inode table size 9024 bytes (8.81 Kbytes)
+	21.61% of uncompressed inode table size (41754 bytes)
+Directory table size 10711 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E506B16F
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 11:24:45 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.79 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.88 Kbytes)
+Inode table size 9020 bytes (8.81 Kbytes)
+	21.60% of uncompressed inode table size (41754 bytes)
+Directory table size 10711 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E7042F74
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 11:59:28 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.80 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.88 Kbytes)
+Inode table size 9036 bytes (8.82 Kbytes)
+	21.64% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 6E3B9FF6
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 12:22:10 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.82 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.85 Kbytes)
+Inode table size 9060 bytes (8.85 Kbytes)
+	21.70% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ :  D4FF3F1
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 12:43:16 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.80 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.88 Kbytes)
+Inode table size 9050 bytes (8.84 Kbytes)
+	21.67% of uncompressed inode table size (41754 bytes)
+Directory table size 10711 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : EAD3B2EC
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 13:00:52 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.89 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.93 Kbytes)
+Inode table size 9037 bytes (8.83 Kbytes)
+	21.64% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 79616C4F
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 13:29:42 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.07 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.94 Kbytes)
+Inode table size 9067 bytes (8.85 Kbytes)
+	21.72% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 8C418805
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 15:03:37 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.01 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.96 Kbytes)
+Inode table size 9013 bytes (8.80 Kbytes)
+	21.59% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 727802EF
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 15:19:25 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6556.98 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20653.66 Kbytes)
+Inode table size 9019 bytes (8.81 Kbytes)
+	21.60% of uncompressed inode table size (41754 bytes)
+Directory table size 10711 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : A6B36CE8
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 15:37:28 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.08 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.01 Kbytes)
+Inode table size 9038 bytes (8.83 Kbytes)
+	21.65% of uncompressed inode table size (41754 bytes)
+Directory table size 10712 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : DB715279
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 15:53:38 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.04 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.00 Kbytes)
+Inode table size 9013 bytes (8.80 Kbytes)
+	21.59% of uncompressed inode table size (41754 bytes)
+Directory table size 10711 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 86ECB85F
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 16:11:18 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.03 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.00 Kbytes)
+Inode table size 9068 bytes (8.86 Kbytes)
+	21.72% of uncompressed inode table size (41754 bytes)
+Directory table size 10714 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 5069364A
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 17:24:13 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.06 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.38 Kbytes)
+Inode table size 9010 bytes (8.80 Kbytes)
+	21.58% of uncompressed inode table size (41754 bytes)
+Directory table size 10712 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 13D633AB
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 17:47:20 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.10 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.37 Kbytes)
+Inode table size 9046 bytes (8.83 Kbytes)
+	21.66% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 51333DAB
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Tue Dec 8 18:07:10 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.12 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.42 Kbytes)
+Inode table size 9056 bytes (8.84 Kbytes)
+	21.69% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : BEADCF0A
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Dec 9 08:35:18 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.15 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.44 Kbytes)
+Inode table size 9076 bytes (8.86 Kbytes)
+	21.74% of uncompressed inode table size (41754 bytes)
+Directory table size 10713 bytes (10.46 Kbytes)
+	53.22% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : E3E81C79
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Dec 9 09:20:23 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.15 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.64 Kbytes)
+Inode table size 9022 bytes (8.81 Kbytes)
+	21.61% of uncompressed inode table size (41754 bytes)
+Directory table size 10711 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : 2CC63FCF
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Dec 9 09:39:10 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.15 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.57 Kbytes)
+Inode table size 9022 bytes (8.81 Kbytes)
+	21.61% of uncompressed inode table size (41754 bytes)
+Directory table size 10712 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ :  307F539
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+
+
+*********************** Wed Dec 9 09:57:00 EST 2015 ************************
+1.28.0000 MIPSR2-132.1.1021 K26 USB VPN
+Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
+
+Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
+Filesystem size 6557.17 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.57 Kbytes)
+Inode table size 9057 bytes (8.84 Kbytes)
+	21.69% of uncompressed inode table size (41754 bytes)
+Directory table size 10712 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
+No duplicate files removed
+Number of inodes 1293
+Number of files 1055
+Number of fragments 79
+Number of symbolic links  185
+Number of device nodes 0
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 53
+Number of uids 1
+	root (0)
+Number of gids 0
+
+Creating TRX: image/tomato-K26USB-1.28.RT-N16-MIPSR2-132.1.1021-VPN.trx
+
+TRX Image:
+ Total Size .... : 7667712 (7488.0 KB) (7.3 MB)
+   Images ...... : 7666660 (0x0074fbe4)
+   Padding ..... : 1024
+ Avail. for jffs :
+   4MB, 128K CFE : 0 EBs + 0
+   4MB, 256K CFE : 0 EBs + 0
+   8MB, 256K CFE : 6 EBs + 0
+            Note : Netgear routers have 6 EBs less available!
+ CRC-32 ........ : D8EB0D23
+ 128K Blocks ... : 59 (0x0000003B)
+  64K Blocks ... : 117 (0x00000075)
+ Offsets:
+   0: 0x0000001C  lzma-loader/loader.gz
+   1: 0x00000A8C  /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/linux/linux-2.6/arch/mips
+   2: 0x000E7C00  router/mipsel-uclibc/target.image
+

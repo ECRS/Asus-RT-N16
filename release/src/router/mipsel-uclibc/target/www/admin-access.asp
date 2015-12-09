@@ -21,6 +21,23 @@ height: 10em;
 }
 </style>
 <script type='text/javascript'>
+function toggleSetPassword(cb)
+{
+var pw1 = document.getElementsByName('set_password_1')[0];
+var pw2 = document.getElementsByName('set_password_2')[0];
+pw1.disabled = !cb.checked;
+pw2.disabled = !cb.checked;
+if (cb.checked)
+{
+pw1.value = "";
+pw2.value = "";
+}
+else
+{
+pw1.value = "********";
+pw2.value = "********";
+}
+}
 //  <% nvram("http_enable,https_enable,http_lanport,https_lanport,remote_management,remote_mgt_https,web_wl_filter,web_css,web_dir,ttb_css,sshd_eas,sshd_pass,sshd_remote,telnetd_eas,http_wanport,sshd_authkeys,sshd_port,sshd_rport,sshd_forwarding,telnetd_port,rmgt_sip,https_crt_cn,https_crt_save,lan_ipaddr,ne_shlimit,sshd_motd,http_username,http_root"); %>
 changed = 0;
 tdup = parseInt('<% psup("telnetd"); %>');
@@ -108,10 +125,14 @@ if ((a.value.length) && (!_v_iptaddr(a, quiet || !ok, 15, 1, 1))) return 0;
 ferror.clear(a);
 if (!v_range('_f_limit_hit', quiet || !ok, 1, 100)) return 0;
 if (!v_range('_f_limit_sec', quiet || !ok, 3, 3600)) return 0;
+if (focused !== null && focused.name == 'change_password_1')
+toggleSetPassword(E('_change_password_1'));
 a = E('_set_password_1');
 b = E('_set_password_2');
 a.value = a.value.trim();
 b.value = b.value.trim();
+if (a.getAttribute('disabled') == false || a.getAttribute('disabled') == null || a.getAttribute('disabled') == undefined)
+{
 if (a.value != b.value) {
 ferror.set(b, 'Both passwords must match.', quiet || !ok);
 ok = 0;
@@ -123,6 +144,7 @@ ok = 0;
 else {
 ferror.clear(a);
 ferror.clear(b);
+}
 }
 changed |= ok;
 return ok;
@@ -198,7 +220,7 @@ changed = 0;
 }
 </script>
 </head>
-<body onload="init()">
+<body onload="init(); E('_set_password_1').disabled = true; E('_set_password_2').disabled = true;">
 <form id='_fom' method='post' action='tomato.cgi'>
 <table id='container' cellspacing=0>
 <tr><td colspan=2 id='header'>
@@ -310,6 +332,7 @@ createFieldTable('', [
 { title: 'Username', name: 'http_username', type: 'text', value: nvram.http_username, suffix: '&nbsp;<small>(empty field means "admin")</small>' },
 { title: 'Allow web login as "root"', name: 'f_http_root', type: 'checkbox', value: nvram.http_root == 1 },
 null,
+{ title: 'Change Password', name: 'change_password_1', type: 'checkbox', value: false },
 { title: 'Password', name: 'set_password_1', type: 'password', value: '**********' },
 { title: '<i>(re-enter to confirm)</i>', indent: 2, name: 'set_password_2', type: 'password', value: '**********' }
 ]);

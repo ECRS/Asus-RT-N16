@@ -1,15 +1,15 @@
 Creating little endian 3.0 filesystem on /home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/mipsel-uclibc/target.image, block size 65536.
 
 Little endian filesystem, data block size 65536, compressed data, compressed metadata, compressed fragments
-Filesystem size 6558.23 Kbytes (6.40 Mbytes)
-	31.75% of uncompressed filesystem size (20654.80 Kbytes)
-Inode table size 9009 bytes (8.80 Kbytes)
-	21.59% of uncompressed inode table size (41722 bytes)
-Directory table size 10699 bytes (10.45 Kbytes)
-	53.21% of uncompressed directory table size (20106 bytes)
+Filesystem size 6557.17 Kbytes (6.40 Mbytes)
+	31.75% of uncompressed filesystem size (20654.57 Kbytes)
+Inode table size 9057 bytes (8.84 Kbytes)
+	21.69% of uncompressed inode table size (41754 bytes)
+Directory table size 10712 bytes (10.46 Kbytes)
+	53.21% of uncompressed directory table size (20130 bytes)
 No duplicate files removed
-Number of inodes 1292
-Number of files 1054
+Number of inodes 1293
+Number of files 1055
 Number of fragments 79
 Number of symbolic links  185
 Number of device nodes 0

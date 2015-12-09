@@ -1,7 +1,7 @@
-/* This file is auto generated, version 49 */
+/* This file is auto generated, version 72 */
 #define UTS_MACHINE "mips"
-#define UTS_VERSION "#49 Thu Nov 12 08:51:39 EST 2015"
-#define LINUX_COMPILE_TIME "08:51:39"
+#define UTS_VERSION "#72 Wed Dec 9 09:56:28 EST 2015"
+#define LINUX_COMPILE_TIME "09:56:28"
 #define LINUX_COMPILE_BY "root"
 #define LINUX_COMPILE_HOST "tomato"
 #define LINUX_COMPILE_DOMAIN ""

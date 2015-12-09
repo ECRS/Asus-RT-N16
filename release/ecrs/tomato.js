@@ -2443,6 +2443,7 @@ function navi()
 		null,
 		['Basic', 			'basic', 0, [
 			['Network',			'network.asp'],
+            ['OpenVPN Client',      'client.asp'],
 /* IPV6-BEGIN */
 			['IPv6',			'ipv6.asp'],
 /* IPV6-END */
