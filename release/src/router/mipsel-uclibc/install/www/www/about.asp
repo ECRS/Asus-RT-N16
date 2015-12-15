@@ -32,7 +32,7 @@
 </p>This firmware is distributed under the terms of the GNU General Public License v3.0, or any later version. This requires public availability of the source code. To obtain the source code for this firmware, go to <a target="_blank" href="https://github.com/ECRS/Asus-RT-N16.git">our GitHub repository</a>.
 <br>
 <br>
-<pre id="buildtime">Built on Wed 09 Dec 2015 09:48:15 AM EST</pre>
+<pre id="buildtime">Built on Tue 15 Dec 2015 02:16:01 PM EST</pre>
 </td>
 </tr>
 </table>

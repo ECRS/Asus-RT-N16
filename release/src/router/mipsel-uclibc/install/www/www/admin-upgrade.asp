@@ -71,7 +71,7 @@ fom.submit();
 <form name='form_upgrade' method='post' action='upgrade.cgi' encType='multipart/form-data'>
 <div id='box-input'>
 Select the file to use:<br>
-<input type='file' name='file' size='50' style='height:30px; padding-bottom: 40px;'> <input type='button' value='Upgrade' id='afu-upgrade-button' onclick='upgrade()' style='height:20px'>
+<input type='file' name='file' size='50'> <input type='button' value='Upgrade' id='afu-upgrade-button' onclick='upgrade()' style='height:20px'>
 </div>
 </form>
 <br><form name='form_reset' action='javascript:{}'>

@@ -9,10 +9,7 @@
 <script type='text/javascript' src='interfaces.js'></script>
 <% setecrsdefaults(); %>
 <script type='text/javascript'>
-window.onload = function()
-{
 window.location.replace("/");
-};
 </script>
 </head>
 <body></body>

@@ -1326,9 +1326,38 @@ refreshChannels(uidx);
 }
 }
 }
+/**
+* ATS - Attempted to fix ASUS-22, however just calling save() does not cause the services
+* to be restart properly. In lieu of wasting more time on this, and considering that SCO
+* and deployment will be the main stagers of this router, it should just be documented
+* in the staging guide that the wifi password must be changed from "changeme" to something
+* more viable. This will kill two birds with one stone, and remove the need to set the
+* wifi security manually.
+*/
+/*
+function checkForceSubmit()
+{
+var search = window.location.search;
+var proptext = "forceSubmit";
+var idex = search.indexOf(proptext);
+// If forceSubmit exists then this was a fresh load and the ecrsdefaults have just been set
+// so must also submit the basic network page so that the network is not Open.
+if (idex > -1 && search.substring(idex + proptext.length + 1, idex + proptext.length + 2) == "1")
+{
+var form = document.forms[0];
+var fieldlist = form.getElementsByTagName("*");
+for (var i = 0; i < fieldlist.length; i++)
+{
+fieldlist[i].disabled = true;
+}
+save();
+setTimeout(function() { window.location.replace("/"); }, 10000);
+}
+}
+*/
 </script>
 </head>
-<body onload='init()'>
+<body onload='init();'>
 <form id='_fom' method='post' action='tomato.cgi'>
 <table id='container' cellspacing=0>
 <tr><td colspan=2 id='header'>
@@ -1422,7 +1451,7 @@ createFieldTable('', [
 { title: '', name: 'f_dns_3', type: 'text', maxlen: 21, size: 25, value: dns[2] || '0.0.0.0' },
 { title: 'Use dnscrypt-proxy', name: 'f_dnscrypt_proxy', type: 'checkbox', value: (nvram.dnscrypt_proxy == 1) },
 { title: 'Manual Entry', indent: 2, name: 'f_dnscrypt_manual', type: 'checkbox', value: (nvram.dnscrypt_manual == 1) },
-{ title: 'Resolver', indent: 2, name: 'dnscrypt_resolver', type: 'select', options: [['4armed','4armed'],['cisco','cisco'],['cisco-familyshield','cisco-familyshield'],['cisco-ipv6','cisco-ipv6'],['cisco-port53','cisco-port53'],['cloudns-syd','cloudns-syd'],['cs-fr','cs-fr'],['cs-fr2','cs-fr2'],['cs-cfi','cs-cfi'],['cs-cfii','cs-cfii'],['cs-de','cs-de'],['cs-uk','cs-uk'],['cs-pt','cs-pt'],['cs-uswest','cs-uswest'],['cs-sg','cs-sg'],['cs-ch','cs-ch'],['cs-it','cs-it'],['cs-uswest2','cs-uswest2'],['cs-ca','cs-ca'],['cs-md','cs-md'],['d0wn-bg-ns1','d0wn-bg-ns1'],['d0wn-cr-ns1','d0wn-cr-ns1'],['d0wn-de-ns2','d0wn-de-ns2'],['d0wn-gr-ns1','d0wn-gr-ns1'],['d0wn-fr-ns1','d0wn-fr-ns1'],['d0wn-fr-ns2','d0wn-fr-ns2'],['d0wn-nl-ns1','d0wn-nl-ns1'],['d0wn-nl-ns2','d0wn-nl-ns2'],['d0wn-pl-ns1','d0wn-pl-ns1'],['d0wn-random-ns1','d0wn-random-ns1'],['d0wn-ru-ns1','d0wn-ru-ns1'],['d0wn-ua-ns1','d0wn-ua-ns1'],['de-ns1.de','de-ns1.de'],['dnscrypt.eu-dk','dnscrypt.eu-dk'],['dnscrypt.eu-dk-ipv6','dnscrypt.eu-dk-ipv6'],['dnscrypt.eu-nl-ipv6','dnscrypt.eu-nl-ipv6'],['dnscrypt.org-fr','dnscrypt.org-fr'],['dnsmachine.net-de','dnsmachine.net-de'],['fvz-rec-at-vie-01','fvz-rec-at-vie-01'],['fvz-rec-ca-tor-01','fvz-rec-ca-tor-01'],['fvz-rec-ca-tor-01-ipv6','fvz-rec-ca-tor-01-ipv6'],['fvz-rec-de-fra-01','fvz-rec-de-fra-01'],['fvz-rec-de-muc-01','fvz-rec-de-muc-01'],['fvz-rec-de-muc-01-ipv6','fvz-rec-de-muc-01-ipv6'],['fvz-rec-fr-sxb-01','fvz-rec-fr-sxb-01'],['fvz-rec-gb-lon-01','fvz-rec-gb-lon-01'],['fvz-rec-hk-ztw-01','fvz-rec-hk-ztw-01'],['fvz-rec-ie-du-01','fvz-rec-ie-du-01'],['fvz-rec-no-osl-01','fvz-rec-no-osl-01'],['fvz-rec-nz-akl-01','fvz-rec-nz-akl-01'],['fvz-rec-nz-akl-01-ipv6','fvz-rec-nz-akl-01-ipv6'],['fvz-rec-sg-ea-01','fvz-rec-sg-ea-01'],['fvz-rec-sg-ea-01-ipv6','fvz-rec-sg-ea-01-ipv6'],['fvz-rec-us-ler-01','fvz-rec-us-ler-01'],['fvz-rec-us-ler-01-ipv6','fvz-rec-us-ler-01-ipv6'],['fvz-rec-us-mia-01','fvz-rec-us-mia-01'],['fvz-rec-us-mia-01-ipv6','fvz-rec-us-mia-01-ipv6'],['ipredator','ipredator'],['okturtles','okturtles'],['opennic-tumabox','opennic-tumabox'],['ovpnto-lat','ovpnto-lat'],['ovpnto-ro','ovpnto-ro'],['ovpnto-se','ovpnto-se'],['soltysiak','soltysiak'],['soltysiak-ipv6','soltysiak-ipv6']], value: nvram.dnscrypt_resolver, suffix: ' <a href=\'https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv\' target=\'_new\'>Resolver Details</a>' },
+{ title: 'Resolver', indent: 2, name: 'dnscrypt_resolver', type: 'select', options: [['4armed','4armed'],['cisco','cisco'],['cisco-familyshield','cisco-familyshield'],['cisco-ipv6','cisco-ipv6'],['cisco-port53','cisco-port53'],['cloudns-syd','cloudns-syd'],['cs-fr','cs-fr'],['cs-fr2','cs-fr2'],['cs-cfi','cs-cfi'],['cs-cfii','cs-cfii'],['cs-de','cs-de'],['cs-uk','cs-uk'],['cs-pt','cs-pt'],['cs-uswest','cs-uswest'],['cs-sg','cs-sg'],['cs-ch','cs-ch'],['cs-uswest2','cs-uswest2'],['cs-ca','cs-ca'],['cs-md','cs-md'],['d0wn-bg-ns1','d0wn-bg-ns1'],['d0wn-cr-ns1','d0wn-cr-ns1'],['d0wn-de-ns2','d0wn-de-ns2'],['d0wn-gr-ns1','d0wn-gr-ns1'],['d0wn-fr-ns1','d0wn-fr-ns1'],['d0wn-fr-ns2','d0wn-fr-ns2'],['d0wn-nl-ns1','d0wn-nl-ns1'],['d0wn-nl-ns2','d0wn-nl-ns2'],['d0wn-pl-ns1','d0wn-pl-ns1'],['d0wn-random-ns1','d0wn-random-ns1'],['d0wn-ru-ns1','d0wn-ru-ns1'],['d0wn-ua-ns1','d0wn-ua-ns1'],['dnscrypt.me','dnscrypt.me'],['dnscrypt.eu-dk','dnscrypt.eu-dk'],['dnscrypt.eu-dk-ipv6','dnscrypt.eu-dk-ipv6'],['dnscrypt.eu-nl-ipv6','dnscrypt.eu-nl-ipv6'],['dnscrypt.org-fr','dnscrypt.org-fr'],['fvz-rec-at-vie-01','fvz-rec-at-vie-01'],['fvz-rec-ca-tor-01','fvz-rec-ca-tor-01'],['fvz-rec-ca-tor-01-ipv6','fvz-rec-ca-tor-01-ipv6'],['fvz-rec-de-fra-01','fvz-rec-de-fra-01'],['fvz-rec-de-muc-01','fvz-rec-de-muc-01'],['fvz-rec-de-muc-01-ipv6','fvz-rec-de-muc-01-ipv6'],['fvz-rec-fr-sxb-01','fvz-rec-fr-sxb-01'],['fvz-rec-gb-lon-01','fvz-rec-gb-lon-01'],['fvz-rec-hk-ztw-01','fvz-rec-hk-ztw-01'],['fvz-rec-ie-du-01','fvz-rec-ie-du-01'],['fvz-rec-no-osl-01','fvz-rec-no-osl-01'],['fvz-rec-nz-akl-01','fvz-rec-nz-akl-01'],['fvz-rec-nz-akl-01-ipv6','fvz-rec-nz-akl-01-ipv6'],['fvz-rec-us-ler-01','fvz-rec-us-ler-01'],['fvz-rec-us-ler-01-ipv6','fvz-rec-us-ler-01-ipv6'],['fvz-rec-us-mia-01','fvz-rec-us-mia-01'],['fvz-rec-us-mia-01-ipv6','fvz-rec-us-mia-01-ipv6'],['ipredator','ipredator'],['okturtles','okturtles'],['opennic-tumabox','opennic-tumabox'],['ovpnto-lat','ovpnto-lat'],['ovpnto-ro','ovpnto-ro'],['ovpnto-se','ovpnto-se'],['soltysiak','soltysiak'],['soltysiak-ipv6','soltysiak-ipv6']], value: nvram.dnscrypt_resolver, suffix: ' <a href=\'https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv\' target=\'_new\'>Resolver Details</a>' },
 { title: 'Resolver Address', indent: 2, name: 'dnscrypt_resolver_address', type: 'text', maxlen: 50, size: 25, value: nvram.dnscrypt_resolver_address, suffix: ' <a href=\'https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv\' target=\'_new\'>Resolver Details</a>' },
 { title: 'Provider Name', indent: 2, name: 'dnscrypt_provider_name', type: 'text', maxlen: 60, size: 25, value: nvram.dnscrypt_provider_name },
 { title: 'Provider Public Key', indent: 2, name: 'dnscrypt_provider_key', type: 'text', maxlen: 80, size: 25, value: nvram.dnscrypt_provider_key },

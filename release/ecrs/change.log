@@ -1,5 +1,25 @@
 /**
  * @author - astclair
+ * @version - December 15, 2015
+ *
+ * Adding final touches for initial release of the v132 build of Shibby's
+ * tomato firmware customized for ECRS needs.
+ */
+
+// ASUS-34 - /src/router/www/admin-scripts.asp L37
+window.onload = function()
+{
+    tabSelect('as-fire');
+}
+
+// Remove CIFS (non-pci compliant)
+Removed admin-cifs page
+
+
+
+
+/**
+ * @author - astclair
  * @version - December 8, 2015
  * 
  * Added system call in upgrade.c to call a custom ecrsupgrade.sh file
@@ -97,9 +117,6 @@ Added row id of ssh_remote_access so it can be targted with CSS
 Added row id of ssh_remote_port so it can be targted with CSS
 Added row id of f_original_limit so it can be targeted with CSS
 Altered text for the Limit Connection Attempts; placed on next line. Hid the original SSH/Telnet options.
-
-// admin-upgrade.asp - L92
-Changed button height to 30 and added 40px padding
 
 // status-overview.asp - L217
 Removed the <tr> with "Configure" option that links to previously hidden Ethernet Port Settings in Admin Access page

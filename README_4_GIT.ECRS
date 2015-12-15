@@ -1,2 +1,22 @@
-1. git commit -a -m "Commit message..."
-2. 
+/**
+ * Issue below commands from /tomato ROOT DIRECTORY
+ * .
+ * └── tomato
+ *     ├── CHANGELOG
+ *     ├── COPYING
+ *     ├── make_all.sh
+ *     ├── make.sh
+ *     ├── README_1_ENVIRONMENT.ECRS
+ *     ├── README_2_BUILDSTOCK.ECRS
+ *     ├── README_3_BUILDECRS.ECRS
+ *     ├── README_4_GIT.ECRS
+ *     ├── README.TXT
+ *     ├── release
+ *     ├── toolchain
+ *     ├── tools
+ *     └── VERSION
+ */
+
+1. git add --all
+2. git commit -m "Commit message..."
+3. git push

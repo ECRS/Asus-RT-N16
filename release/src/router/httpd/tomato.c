@@ -461,6 +461,11 @@ static void asp_setecrsdefaults(int argc, char **argv)
         nvram_set("tomatoanon_notify",  "0");
 
         nvram_set("ecrsdefaultsset",    "1");
+
+        // exec_service("*");
+        // web_printf(" Some services are being restarted...");
+        // web_close();
+        // kill(1, SIGHUP);
 }
 
 // -----------------------------------------------------------------------------

@@ -1548,10 +1548,43 @@ function init()
 		}
 	}
 }
-</script>
 
+/**
+ * ATS - Attempted to fix ASUS-22, however just calling save() does not cause the services
+ * to be restart properly. In lieu of wasting more time on this, and considering that SCO
+ * and deployment will be the main stagers of this router, it should just be documented
+ * in the staging guide that the wifi password must be changed from "changeme" to something
+ * more viable. This will kill two birds with one stone, and remove the need to set the
+ * wifi security manually.
+ */
+/*
+function checkForceSubmit()
+{
+    var search = window.location.search;
+    var proptext = "forceSubmit";
+    var idex = search.indexOf(proptext);
+
+    // If forceSubmit exists then this was a fresh load and the ecrsdefaults have just been set
+    // so must also submit the basic network page so that the network is not Open.
+    if (idex > -1 && search.substring(idex + proptext.length + 1, idex + proptext.length + 2) == "1")
+    {
+        var form = document.forms[0];
+        var fieldlist = form.getElementsByTagName("*");
+
+        for (var i = 0; i < fieldlist.length; i++)
+        {
+            fieldlist[i].disabled = true;
+        }
+
+        save();
+
+        setTimeout(function() { window.location.replace("/"); }, 10000);
+    }
+}
+*/
+</script>
 </head>
-<body onload='init()'>
+<body onload='init();'>
 <form id='_fom' method='post' action='tomato.cgi'>
 <table id='container' cellspacing=0>
 <tr><td colspan=2 id='header'>

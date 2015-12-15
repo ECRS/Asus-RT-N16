@@ -26,6 +26,15 @@ border-top: none;
 </style>
 <script type='text/javascript'>
 //	<% nvram("script_init,script_shut,script_fire,script_wanup"); %>
+document.onkeydown = function(e)
+{
+e = e || window.event;
+if (e.keyCode == 13 && document.activeElement.id == 'as-hht-ip')
+{
+setKioskIP('as-hht-ip');
+return false;
+}
+}
 tabs = [['as-init', 'Init'],['as-shut', 'Shutdown'],['as-fire','Firewall'],['as-wanup', 'WAN Up']];
 function tabSelect(name)
 {
@@ -118,6 +127,7 @@ if (checkbox.checked)
 {
 // Enable the HHT IP text box and submit button
 E('hht-dependent').style.display = "inline";
+E('as-hht-ip').focus();
 // Insert the firewall script if not already there
 if (firetb.value.indexOf(text) < 0)
 {
@@ -147,25 +157,9 @@ textbox = E(textbox);
 if (hhtcheckbox.checked)
 firetb.value = firetb.value.replace(/--to-destination.*/gm, '--to-destination ' + textbox.value);
 }
-window.onload = function()
-{
-var bidirtext = "bidirectional";
-var hhttext = "DNAT --to-destination "
-var firetb = E('as-fire-text');
-var bidirpos = firetb.value.indexOf(bidirtext);
-var hhtpos = firetb.value.indexOf(hhttext);
-if (bidirpos >= 0)
-E('as-bidirectional').checked = true;
-if (hhtpos >= 0)
-{
-E('as-hht').checked = true;
-E('hht-dependent').style.display = "inline";
-E('as-hht-ip').value = firetb.value.match(/DNAT --to-destination(.*)$/gm)[0].split(" ")[2];
-}
-};
 </script>
 </head>
-<body>
+<body onload="tabSelect('as-fire');">
 <form id='_fom' method='post' action='tomato.cgi'>
 <table id='container' cellspacing=0>
 <tr><td colspan=2 id='header'>
@@ -186,13 +180,22 @@ W('<textarea class="as-script" name="script_' + t.replace('as-', '') + '" id="' 
 }
 W('<br><input type="checkbox" id="as-wordwrap" onclick="wordWrap()" onchange="wordWrap()" ' +
 (wrap ? 'checked' : '') + '> Word Wrap');
-W('<br><input type="checkbox" id="as-bidirectional" ' + 
-'onclick="biDirectional(this, \'bidirectional\', \'bidirectionalframe\')" ' + 
-'onchange="biDirectional(this, \'bidirectional\', \'bidirectionalframe\')"> Bidirectional Communication');
-// Need to implment textbox to get desintation IP
+var bidirtext = "bidirectional";
+var hhttext = "DNAT --to-destination";
+var bidirset = nvram.script_fire.indexOf(bidirtext);
+var hhtset = nvram.script_fire.indexOf(hhttext);
+W('<br><input type="checkbox" id="as-' + bidirtext + '" ' + 
+'onclick="biDirectional(this, \'' + bidirtext + '\', \'bidirectionalframe\')" ' + 
+(bidirset >= 0 ? 'checked' : '') + '> Bidirectional Communication');
 W('<br><input type="checkbox" id="as-hht" ' + 
-'onclick="hht(this, \'DNAT --to-destinaton\', \'hhtframe\')" ' +
-'onchange="hht(this, \'DNAT --to-destination\', \'hhtframe\')" > Redirect HHT to Kiosk');
+'onclick="hht(this, \'' + hhttext + '\', \'hhtframe\')" ' +
+(hhtset >= 0 ? 'checked' : '') + '> Redirect HHT to Kiosk');
+W('<div id="hht-dependent" style="display: ' + (hhtset >= 0 ? 'inline' : 'none') + ';">' + 
+'<br>' + 
+'<input type="text" id="as-hht-ip" value="' +
+(hhtset >= 0 ? nvram.script_fire.split(hhttext)[1].split(/\r?\n/)[0].trim() : '10.217.1.2') + '">' + 
+'<input type="button" id="as-hht-setip" onclick="setKioskIP(\'as-hht-ip\');" value="Set Kiosk IP">' +
+'</div>');
 </script>
 <div id="hht-dependent" style="display: none;">
 <br>

@@ -1,25 +1,21 @@
 #!/bin/bash
 
-## Verify that a version string was passed to the call of this file
-## -z checks for "zero length"
-<<COMMENT
-if [ -z ${1} ]; then
-    echo "No ECRS build number provided"
-    exit 2
-fi
+INCREMENT=0
 
-## Verify that the version number provided has length of 4
-if [ ${#1} -ne 4 ]; then
-    echo "Invalid version number. Must have a length of 4 (i.e. 1000)"
-    exit 3
-fi
+while [[ $# > 0 ]]
+do
+key="$1"
 
-#elif [ $1 -lt 1000 ] -o [ $1 -gt 9999 ] then
-if [ ${1} -lt 1000 -o ${1} -gt 9999 ]; then
-    echo "Version number is out of range. Must be atleast 1000 and no greater than 9999."
-    exit 4
-fi
-COMMENT
+case $key in
+    -i|--increment)
+    INCREMENT=1
+    ;;
+    *)
+        # Unknown option
+    ;;
+esac
+shift # pass argument or value
+done
 
 ## Perform the ECRS customizations before building the firmware
 ./insertecrsabout.sh
@@ -32,12 +28,22 @@ COMMENT
 ## Now build the firmware
 MAJOR_VERSION=$(grep -i 'version' VERSION | cut -f2 -d'=' | awk '{$1=$1};1')
 BUILD_NUMBER=$(grep -i 'build' VERSION | cut -f2 -d'=' | awk '{$1=$1};1')
-BUILD_NUMBER=$((BUILD_NUMBER+1))
+
+if ["$INCREMENT" -eq "1"]
+then
+    BUILD_NUMBER=$((BUILD_NUMBER+1))
+fi
 
 cd ../src-rt
 make clean
 make V1=RT-N16- V2=-132.${MAJOR_VERSION}.${BUILD_NUMBER} r2e
 
 cd ../ecrs
-echo "Updating build number to ${BUILD_NUMBER}"
-sed -i -e "s|build = .*|build = ${BUILD_NUMBER}|g" VERSION
+
+if ["$INCREMENT" -eq "1"]
+then
+    echo "Updating build number to ${BUILD_NUMBER}"
+    sed -i -e "s|build = .*|build = ${BUILD_NUMBER}|g" VERSION
+fi
+
+echo "Built ASUS RT-N16 - ECRS Build ${MAJOR_VERSION}.${BUILD_NUMBER}"
