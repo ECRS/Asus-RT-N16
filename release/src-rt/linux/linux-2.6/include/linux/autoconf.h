@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.22.19
- * Tue Dec 15 14:24:17 2015
+ * Mon Dec 21 09:27:20 2015
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_INET_XFRM_TUNNEL_MODULE 1

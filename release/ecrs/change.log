@@ -1,5 +1,17 @@
 /**
  * @author - astclair
+ * @version - December 21, 2015
+ *
+ * Updated ecstomato.css to display the admin UI better on freedom panels.
+ */
+// ASUS-22 - /ecrs/ecrstomato.css
+Changed min-width from 1100 to 800.
+
+
+
+
+/**
+ * @author - astclair
  * @version - December 15, 2015
  *
  * Adding final touches for initial release of the v132 build of Shibby's

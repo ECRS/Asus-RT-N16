@@ -1609,7 +1609,7 @@ configure:13201: $? = 0
 configure:13201: result: yes
 configure:13201: checking for eventfd
 configure:13201: mipsel-uclibc-gcc -std=gnu99 -o conftest -Os -Wall -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32  -ffunction-sections -fdata-sections -fPIC -fPIE -fwrapv -fno-strict-aliasing -fno-strict-overflow -Winit-self -Wwrite-strings -Wdiv-by-zero -Wall -fno-strict-aliasing -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include -D_FORTIFY_SOURCE=2 -I/usr/local/include -ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/.libs -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -L/usr/local/lib conftest.c -ldl -lsodium -ldl -lm  >&5
-/tmp/cca6qfha.o: In function `main':
+/tmp/ccfeEtsN.o: In function `main':
 conftest.c:(.text.main+0x18): undefined reference to `eventfd'
 collect2: ld returned 1 exit status
 configure:13201: $? = 1
@@ -1739,7 +1739,7 @@ configure:13201: $? = 0
 configure:13201: result: yes
 configure:13201: checking for arc4random
 configure:13201: mipsel-uclibc-gcc -std=gnu99 -o conftest -Os -Wall -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32  -ffunction-sections -fdata-sections -fPIC -fPIE -fwrapv -fno-strict-aliasing -fno-strict-overflow -Winit-self -Wwrite-strings -Wdiv-by-zero -Wall -fno-strict-aliasing -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include -D_FORTIFY_SOURCE=2 -I/usr/local/include -ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/.libs -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -L/usr/local/lib conftest.c -ldl -lsodium -ldl -lm  >&5
-/tmp/cczUaKyh.o: In function `main':
+/tmp/cc2bt3zT.o: In function `main':
 conftest.c:(.text.main+0x18): undefined reference to `arc4random'
 collect2: ld returned 1 exit status
 configure:13201: $? = 1
@@ -1860,7 +1860,7 @@ configure: failed program was:
 configure:13201: result: no
 configure:13201: checking for arc4random_buf
 configure:13201: mipsel-uclibc-gcc -std=gnu99 -o conftest -Os -Wall -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32  -ffunction-sections -fdata-sections -fPIC -fPIE -fwrapv -fno-strict-aliasing -fno-strict-overflow -Winit-self -Wwrite-strings -Wdiv-by-zero -Wall -fno-strict-aliasing -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include -D_FORTIFY_SOURCE=2 -I/usr/local/include -ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/.libs -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -L/usr/local/lib conftest.c -ldl -lsodium -ldl -lm  >&5
-/tmp/ccETIiUk.o: In function `main':
+/tmp/ccyqgU1X.o: In function `main':
 conftest.c:(.text.main+0x18): undefined reference to `arc4random_buf'
 collect2: ld returned 1 exit status
 configure:13201: $? = 1
@@ -1981,7 +1981,7 @@ configure: failed program was:
 configure:13201: result: no
 configure:13201: checking for arc4random_addrandom
 configure:13201: mipsel-uclibc-gcc -std=gnu99 -o conftest -Os -Wall -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32  -ffunction-sections -fdata-sections -fPIC -fPIE -fwrapv -fno-strict-aliasing -fno-strict-overflow -Winit-self -Wwrite-strings -Wdiv-by-zero -Wall -fno-strict-aliasing -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include -D_FORTIFY_SOURCE=2 -I/usr/local/include -ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/.libs -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -L/usr/local/lib conftest.c -ldl -lsodium -ldl -lm  >&5
-/tmp/cc1ytdpk.o: In function `main':
+/tmp/cccX6NMZ.o: In function `main':
 conftest.c:(.text.main+0x18): undefined reference to `arc4random_addrandom'
 collect2: ld returned 1 exit status
 configure:13201: $? = 1
@@ -2102,7 +2102,7 @@ configure: failed program was:
 configure:13201: result: no
 configure:13201: checking for issetugid
 configure:13201: mipsel-uclibc-gcc -std=gnu99 -o conftest -Os -Wall -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32  -ffunction-sections -fdata-sections -fPIC -fPIE -fwrapv -fno-strict-aliasing -fno-strict-overflow -Winit-self -Wwrite-strings -Wdiv-by-zero -Wall -fno-strict-aliasing -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include -D_FORTIFY_SOURCE=2 -I/usr/local/include -ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/.libs -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -L/usr/local/lib conftest.c -ldl -lsodium -ldl -lm  >&5
-/tmp/ccyN3Y6m.o: In function `main':
+/tmp/ccCpbWEQ.o: In function `main':
 conftest.c:(.text.main+0x18): undefined reference to `issetugid'
 collect2: ld returned 1 exit status
 configure:13201: $? = 1
@@ -2681,7 +2681,7 @@ configure:13620: $? = 0
 configure:13620: result: yes
 configure:13704: checking for port_create
 configure:13704: mipsel-uclibc-gcc -std=gnu99 -o conftest -Os -Wall -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32  -ffunction-sections -fdata-sections -fPIC -fPIE -fwrapv -fno-strict-aliasing -fno-strict-overflow -Winit-self -Wwrite-strings -Wdiv-by-zero -Wall -fno-strict-aliasing -I/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/include -D_FORTIFY_SOURCE=2 -I/usr/local/include -ffunction-sections -fdata-sections -Wl,--gc-sections -L/home/astclair/AsusRT-N16/trunk/tomato/release/src-rt/router/libsodium/src/libsodium/.libs -pie -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -L/usr/local/lib conftest.c -ldl -lsodium -ldl -lm  >&5
-/tmp/ccCSeCuN.o: In function `main':
+/tmp/ccripMWp.o: In function `main':
 conftest.c:(.text.main+0x18): undefined reference to `port_create'
 collect2: ld returned 1 exit status
 configure:13704: $? = 1

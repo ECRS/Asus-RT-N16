@@ -32,5 +32,5 @@
         'A','2','5','6','_','A','S','M',' ','-','D','A','E','S','_','A','S','M','\0'
     };
     #define PLATFORM "platform: linux-mipsel"
-    #define DATE "built on: Tue Dec 15 14:17:03 2015"
+    #define DATE "built on: Mon Dec 21 09:20:00 2015"
 #endif

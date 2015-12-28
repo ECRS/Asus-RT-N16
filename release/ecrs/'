@@ -1,0 +1,134 @@
+/**
+ * @author - astclair
+ * @version - December 21, 2015
+ *
+ * Updated ecstomato.css to display the admin UI better on freedom panels.
+ */
+// ASUS-22 - /ecrs/ecrstomato.css
+Changed min-width from 1100 to 800.
+
+
+
+
+/**
+ * @author - astclair
+ * @version - December 15, 2015
+ *
+ * Adding final touches for initial release of the v132 build of Shibby's
+ * tomato firmware customized for ECRS needs.
+ */
+
+// ASUS-34 - /src/router/www/admin-scripts.asp L37
+window.onload = function()
+{
+    tabSelect('as-fire');
+}
+
+// Remove CIFS (non-pci compliant)
+Removed admin-cifs page
+
+
+
+
+/**
+ * @author - astclair
+ * @version - December 8, 2015
+ * 
+ * Added system call in upgrade.c to call a custom ecrsupgrade.sh file
+ * that will set a few NVRAM options statically when the firmware is
+ * upgraded to the newest version from a pre v132 build of Shibby.
+ */
+
+// ASUS-31, ASUS-32, ASUS-30, ASUS-21
+Added asp_setecrsdefaults() that can be called from the .asp files; sets the nvram defaults
+Added redirect to setecrsdefaults.asp if the default expanded menus do not match the currently expanded menus
+Created new file that calls asp_setecrsdefaults and then redirects back to overview
+Updated admin-access.asp to toggle the set password with a checkbox
+
+
+
+/**
+ * @author - astclair
+ * @version - November 12 2015
+ *
+ * Fixed issues reported by QA after first round of testing.
+ */
+
+// admin-debug.asp - L118
+Removed line: &raquo; <a href='javascript:shutdown()'>Shutdown</a><br>
+
+// about.asp
+Added back the nvram() function so that Logout will work.
+
+
+
+/**
+ * @author - astcalir
+ * @version - November 9 2015
+ *
+ * Added javascript to hide the #tabs id only on the OpenVPN Client page
+ */
+
+// vpn-client.asp - L413
+document.getElementById("tabs").style.display = "none";
+
+// admin-scripts.asp - L79
+if (E('as-init-text').value.length)
+    document.getElementById('as-init-text').value = stripShellComments(E('as-init-text').value);
+if (E('as-shut-text').value.length)
+    document.getElementById('as-shut-text').value = stripShellComments(E('as-shut-text').value);
+if (E('as-fire-text').value.length)
+    document.getElementById('as-fire-text').value = stripShellComments(E('as-fire-text').value);
+if (E('as-wanup-text').value.length)
+    document.getElementById('as-wanup-text').value = stripShellComments(E('as-wanup-text').value);
+
+// vpn-client.asp - L327
+if (E('vpn_client1_custom').value.length)
+    document.getElementById('vpn_client1_custom').value = stripShellComments(E('vpn_client1_custom').value);
+if (E('vpn_client1_ca').value.length)
+    document.getElementById('vpn_client1_ca').value = stripShellComments(E('vpn_client1_ca').value);
+if (E('vpn_client1_crt').value.length)
+    document.getElementById('vpn_client1_crt').value = stripShellComments(E('vpn_client1_crt').value);
+if (E('vpn_client1_key').value.length)
+    document.getElementById('vpn_client1_key').value = stripShellComments(E('vpn_client1_key').value);
+
+// admin-access.asp - ~L298
+Removed two null (spacer) entries; added rid: 'hr'
+
+// admin-scripts.asp - L131
+Added checkbox for Bidirectional communication that will trigger adding the firewall script
+Added biDirectional() JS function that will do the work of toggling the content of the biDirectional FW script
+Added checkbox for HHT rerouting to Kiosk
+Added hht() JS function that will do the work of toggling the Kiosk IP textbox, and adding/removing the script
+    from the firewall textbox.
+Added setKioskIP() JS function that will update the firewall script with an IP provided by the user
+
+
+----------
+
+
+/**
+ * @author - astclair
+ * @version - November 5 2015
+ *
+ * Removed initial settings discussed with mmellon and jdyer on 11/2/2015
+ */
+
+// basic-network.asp - L1756
+Removed disabled, wep, wpa_personal, wpa_enterprise and radius options
+
+// basic-network.asp - L1759
+Removed standalone TKIP option
+
+// admin-access.asp
+Added row id of remote_access so it can be targted with CSS
+Added row id of remote_access_port so it can be targted with CSS
+Added row id of gui_directory so it can be targted with CSS
+Added row id of color_scheme so it can be targted with CSS
+Added row id of ssh_remote_access so it can be targted with CSS
+Added row id of ssh_remote_port so it can be targted with CSS
+Added row id of f_original_limit so it can be targeted with CSS
+Altered text for the Limit Connection Attempts; placed on next line. Hid the original SSH/Telnet options.
+
+// status-overview.asp - L217
+Removed the <tr> with "Configure" option that links to previously hidden Ethernet Port Settings in Admin Access page

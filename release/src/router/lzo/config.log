@@ -9815,7 +9815,7 @@ configure:14016: result: yes
 configure:14016: checking for alloca
 configure:14016: mipsel-uclibc-gcc -o conftest -O3 -Wall -fPIC -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32    conftest.c  >&5
 conftest.c:102: warning: conflicting types for built-in function 'alloca'
-/tmp/ccTDYFtW.o: In function `main':
+/tmp/cczg4BzW.o: In function `main':
 conftest.c:(.text+0x20): undefined reference to `alloca'
 collect2: ld returned 1 exit status
 configure:14016: $? = 1
@@ -9959,7 +9959,7 @@ configure:14016: $? = 0
 configure:14016: result: yes
 configure:14016: checking for clock_getcpuclockid
 configure:14016: mipsel-uclibc-gcc -o conftest -O3 -Wall -fPIC -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32    conftest.c  >&5
-/tmp/ccfGacei.o: In function `main':
+/tmp/ccANiUDZ.o: In function `main':
 conftest.c:(.text+0x18): undefined reference to `clock_getcpuclockid'
 collect2: ld returned 1 exit status
 configure:14016: $? = 1
@@ -10233,7 +10233,7 @@ configure:14016: $? = 0
 configure:14016: result: yes
 configure:14016: checking for stricmp
 configure:14016: mipsel-uclibc-gcc -o conftest -O3 -Wall -fPIC -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32    conftest.c  >&5
-/tmp/ccGQVN2a.o: In function `main':
+/tmp/ccmt3bo0.o: In function `main':
 conftest.c:(.text+0x18): undefined reference to `stricmp'
 collect2: ld returned 1 exit status
 configure:14016: $? = 1
@@ -10401,7 +10401,7 @@ configure:14016: $? = 0
 configure:14016: result: yes
 configure:14016: checking for strnicmp
 configure:14016: mipsel-uclibc-gcc -o conftest -O3 -Wall -fPIC -DLINUX26 -DCONFIG_BCMWL5 -pipe -DBCMWPA2 -funit-at-a-time -Wno-pointer-sign -mtune=mips32 -mips32    conftest.c  >&5
-/tmp/cczGqZLc.o: In function `main':
+/tmp/cck1eLT1.o: In function `main':
 conftest.c:(.text+0x18): undefined reference to `strnicmp'
 collect2: ld returned 1 exit status
 configure:14016: $? = 1

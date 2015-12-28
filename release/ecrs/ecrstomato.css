@@ -254,7 +254,7 @@ input[type=button][disabled]:hover {
     height: auto!important;
 }
 #container {
-    width: 1028px;
+    width: 1024px;
     background: 0 0;
     margin: 20px auto;
 }
@@ -455,7 +455,8 @@ ul.tabs {
 }
 #content {
     position: relative;
-    min-width: 1100px;
+    /*min-width: 1100px;*/
+    min-width: 800px;
     width: 96%;
     border-left: 1px solid #e1e1e1;
     background: #fff;
