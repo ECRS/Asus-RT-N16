@@ -31,3 +31,6 @@ ifneq ($(TCONFIG_DNSCRYPT),y)
 else
 	-wget https://raw.githubusercontent.com/jedisct1/dnscrypt-proxy/master/dnscrypt-resolvers.csv -O $(INSTALLDIR)/rom/etc/dnscrypt-resolvers.csv
 endif
+
+	cp rom/ecrs_kill_firewall_loops.sh $(INSTALLDIR)/rom/ecrs_kill_firewall_loops.sh
+	chmod +x $(INSTALLDIR)/rom/ecrs_kill_firewall_loops.sh

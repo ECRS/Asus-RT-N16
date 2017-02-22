@@ -334,6 +334,18 @@ function save()
     if (E('_vpn_client1_key').value.length)
         document.getElementById('_vpn_client1_key').value = stripShellComments(E('_vpn_client1_key').value);
 
+    // Add --script-security and --up config to _vpn_client1_custom if it doesn't exist
+/*    var bidirectionalStr = "";
+    if (/script-security 2/.test(E('_vpn_client1_custom').value))
+    {
+        bidirectionalStr += "\nscript-security 2";
+    }
+    if (/up \/rom\/openvpn\/up.sh/.test(E('_vpn_client1_custom').value))
+    {
+        bidirectionalStr += "\nup /rom/openvpn/up.sh";
+    }*/
+
+
 	form.submit(fom, 1);
 
 	changed = 0;

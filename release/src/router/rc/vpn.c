@@ -241,15 +241,27 @@ void start_vpnclient(int clientNum)
 	fprintf(fp, "verb 3\n");
 	if ( cryptMode == TLS )
 	{
-		sprintf(&buffer[0], "vpn_client%d_adns", clientNum);
+        // <ATS
+        sprintf(&buffer[0], "/etc/openvpn/client%d/bidir.sh", clientNum);
+        symlink("/rom/openvpn/bidir.sh", &buffer[0]);
+        fprintf(fp, "script-security 2\n");
+        // ATS/>
+
+        sprintf(&buffer[0], "vpn_client%d_adns", clientNum);
 		if ( nvram_get_int(&buffer[0]) > 0 )
 		{
 			sprintf(&buffer[0], "/etc/openvpn/client%d/updown.sh", clientNum);
 			symlink("/rom/openvpn/updown.sh", &buffer[0]);
-			fprintf(fp, "script-security 2\n");
 			fprintf(fp, "up updown.sh\n");
 			fprintf(fp, "down updown.sh\n");
 		}
+        // <ATS
+        else
+        {
+            fprintf(fp, "up bidir.sh\n");
+            fprintf(fp, "down bidir.sh\n");
+        }
+        // ATS/>
 
 		sprintf(&buffer[0], "vpn_client%d_hmac", clientNum);
 		nvi = nvram_get_int(&buffer[0]);

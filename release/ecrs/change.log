@@ -1,4 +1,55 @@
 /**
+ * @author  - astclair
+ * @version - 02.22.2017
+ * @build   - 1027
+ * Patched issue where Static WAN would break when upgrading to build 1026
+ */
+ASUS-49 - Static WAN breaks on upgrade
+
+
+
+
+/**
+ * @author  - astclair
+ * @version - 12.29.2016
+ * @build   - 1026
+ *
+ * Updated to relase alongside new dVPNC for PCI Compliance
+ */
+ASUS-45 - Removed need for firewall script by hooking into OpenVPN custom configuration
+ASUS-46 - Updated OpenSSL to 1.0.2h and OpenVPN to 2.3.11
+ASUS-43 - Disabled SIP by default
+
+
+
+
+/**
+ * @author  - astclair
+ * @version - 3.31.3016
+ * @build   - 1025
+ *
+ * Updated insertmakecustomizations.sh to also remove RC4/MD5 from the DEPFLAG (Dependency Flags) list
+ */
+// ASUS-40
+Removed RC4/MD5 support
+
+
+
+
+/**
+ * @author - astclair
+ * @version - January 18, 2016
+ *
+ * Created insertmakecustomizations.sh to begin customizing make files. This was needed to customize the
+ * building of openssl and have it remove support for MD5 anc RC4 ciphers.
+ */
+// ASUS-41
+Added support for customizing make files programmatically.
+
+
+
+
+/**
  * @author - astclair
  * @version - December 21, 2015
  *

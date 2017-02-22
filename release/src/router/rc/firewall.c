@@ -1877,7 +1877,7 @@ int start_firewall(void)
 	run_tinc_firewall_script();
 #endif
 
-	run_nvscript("script_fire", NULL, 1);
+    run_nvscript("script_fire", NULL, 1);
 
 #ifdef LINUX26
 	allow_fastnat("firewall", can_enable_fastnat);

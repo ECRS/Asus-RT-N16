@@ -15,7 +15,7 @@ function stripComments(string, identifier, message)
     if (typeof message == 'undefined')
         message = "All comments have been removed"
 
-    alert("NOTE: " + message + " to reduce NVRAM usage.");
+    alert("NOTE: " + message + " and any infinite loops have been removed to reduce NVRAM usage.");
 
     return stripBlankLines(filterred.join("\n"));
 }

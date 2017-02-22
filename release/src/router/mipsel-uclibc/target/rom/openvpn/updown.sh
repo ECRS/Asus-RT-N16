@@ -23,5 +23,7 @@ if [ -f $conffile -o -f $resolvfile -o -n "$fileexists" ]; then service dnsmasq 
 rmdir $filedir
 rmdir /etc/openvpn
 
-exit 0
+# ATS - Now run the bidir script
+./bidir.sh
 
+exit 0

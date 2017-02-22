@@ -52,7 +52,7 @@ bgmo = {'disabled':'-','mixed':'Auto','b-only':'B Only','g-only':'G Only','bg-mi
 var ecrsdefaultsset = "<% nv(ecrsdefaultsset); %>";
 
 // If not equal this router has just been upgraded, so defaults need to be reset
-if (ecrsdefaultsset != "1")
+if (ecrsdefaultsset !== "1")
 {
     window.location.replace("setecrsdefaults.asp");
 }

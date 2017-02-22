@@ -233,7 +233,7 @@ void run_nvscript(const char *nv, const char *arg1, int wtime)
 		strcpy(s, nv);
 	}
 	else {
-		script = nvram_get(nv);
+        script = nvram_get(nv);
 
 		if ((script) && (*script != 0)) {
 			sprintf(s, "/tmp/%s.sh", nv);
@@ -242,6 +242,24 @@ void run_nvscript(const char *nv, const char *arg1, int wtime)
 				fputs(script, f);
 				fputs("\n", f);
 				fclose(f);
+                if (strcmp(nv, "script_fire") == 0)
+                {
+                    system("/rom/ecrs_kill_firewall_loops.sh");
+
+                    FILE *fwfp = fopen("/tmp/tmp_script_fire", "r");
+                    char line[512];
+                    if (fwfp != NULL)
+                    {
+                        nvram_set("script_fire", "");
+                        while (fgets(line, sizeof line, fwfp) != NULL)
+                        {
+                            char buf[4096];
+                            char *sfire = nvram_get("script_fire");
+                            snprintf(buf, sizeof buf, "%s%s", sfire, line);
+                            nvram_set("script_fire", buf);
+                        }
+                    }
+                }
 				chmod(s, 0700);
 				chdir("/tmp");
 

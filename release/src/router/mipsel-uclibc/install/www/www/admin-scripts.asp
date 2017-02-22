@@ -184,9 +184,13 @@ var bidirtext = "bidirectional";
 var hhttext = "DNAT --to-destination";
 var bidirset = nvram.script_fire.indexOf(bidirtext);
 var hhtset = nvram.script_fire.indexOf(hhttext);
+// ATS - Only render if currently enabled; will allow for easy removal
+if (bidirset >= 0)
+{
 W('<br><input type="checkbox" id="as-' + bidirtext + '" ' + 
 'onclick="biDirectional(this, \'' + bidirtext + '\', \'bidirectionalframe\')" ' + 
 (bidirset >= 0 ? 'checked' : '') + '> Bidirectional Communication');
+}
 W('<br><input type="checkbox" id="as-hht" ' + 
 'onclick="hht(this, \'' + hhttext + '\', \'hhtframe\')" ' +
 (hhtset >= 0 ? 'checked' : '') + '> Redirect HHT to Kiosk');

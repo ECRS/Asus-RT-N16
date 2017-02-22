@@ -145,7 +145,9 @@ endif
 ifeq ($(TCONFIG_OPENVPN),y)
 	@mkdir -p $(INSTALLDIR)/rom/openvpn
 	@cp openvpn-updown.sh $(INSTALLDIR)/rom/openvpn/updown.sh
+	@cp openvpn-bidir.sh $(INSTALLDIR)/rom/openvpn/bidir.sh
 	@chmod 0755 $(INSTALLDIR)/rom/openvpn/updown.sh
+	@chmod 0755 $(INSTALLDIR)/rom/openvpn/bidir.sh
 endif
 
 clean:
